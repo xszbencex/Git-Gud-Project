@@ -22,3 +22,14 @@ Elvárás hogy az űrlap platformfüggetlen legyen. Az online megjenés lehetől
 3.7. Fogyasztási szokások: Elvitelre/az étteremben/házhozszállítással
 3.8. Az étterem felszereltsége (etetőszék, légkondícionáló berendezés, svédasztal, önkiszolgáló ételrendelés, mosdólehetőség, drive kiszolgálás, bankártyás fizetés, parkolási lehetőség)
 3.9. Kedvezmények, árajánlatok fontosságának felmérése (korlátlan üdítőfogyasztás, ajándék kiegészítők egyes menük választása esetén, kuponfüzet, nyereményjáték)
+
+
+5. A rendszerre vonatkozó szabályok
+A web felület szabványos eszközökkel készüljön, html/css/javascript.
+A jogszabályoknak megfelelően az adatvédelmi tájékoztó legyen megjelenítve a weboldalon.
+Cookie-k használata esetén a cookie szabályzat megjelenítése is kötelező.
+A weboldal az összes elterjedt webböngészőn (Firefox, Chrome, Edge, Opera) igényesen nézzen ki és működjön megfelelően.
+Elavult (deprecated) technológiákat kérjük ne használjanak, az időtállóság miatt
+A weboldal legyen modern, de egyszerű, az űrlapoknál fontos a feedback, hogy a felhasználó kijelölte az adott form-ot stb.
+A képek nagy felbontásúak legyenek, vízjel nélkül és png vagy jpg formátumúak
+A projektet ajánljuk valamilyen verziókezelő rendszer segítségével elkészíteni, a visszakövethetőség és az egyszerűbb csoportmunka miatt
