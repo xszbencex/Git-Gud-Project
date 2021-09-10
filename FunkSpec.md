@@ -1,1 +1,2 @@
-
+***2. Jelenlegi helyzet***<br>
+A megrendelő fel szeretné mérni a fogyaztők igényeit, hogy versenytársaihoz képest így jusson piaci előnyökhöz. Egy weboldal előállítását rendelte meg, amely interneten keresztül modern megoldásokat használva működik. A modern világ megköveteli. hogy minden felületen is elérhető legyen, ennek megfelelően kell formázni az úrlapot is. Egy olyan weboldalra lenne szükség, amely könnyen eldönthető rövid kérdéseket, és jól átlátható válaszlehetőségeket is tartalmaz. Az adatokat egy adatbázisba fogjuk elmenteni, annak érdekében, hogy a későbbiekben ezekből az adatokból statisztikát is lehessen készíteni.
