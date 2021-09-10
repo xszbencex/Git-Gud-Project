@@ -12,3 +12,13 @@ Ezen felül szükséges egy adatbázis amely eltárolja a lakosoktól bekért ad
 lehessen készíteni.
 Elvárás hogy az űrlap platformfüggetlen legyen. Az online megjenés lehetőleg mobil telefonon, tableten is működjön, reszponzív felülettel.
 
+3. Jelenlegi üzleti folyamatok:
+3.1. A házon kívüli étkezések gyakoriságának felmérése (naponta, hetente, havonta, évente,...)
+3.2. Milyen okokból étkeznek házon kívül (időmegtakarítás, társaság, nagyobb kínálat, jeles alkalmak megünneplése, gazdasági szempontok, ismerettség, kedvezmény, kényelem)
+3.3. Mely étkezdéket részesítenek előnyben (étterem, menza, kifőzde, gyorsétterem, élelmiszerbolt, bevásárlóközpontok étkező részlege)
+3.4. Mik a főbb szempontok, preferenciák egy étkezde kiválasztásában (közelség, ételek minősége, ár, kiszolgálás, népszerűség, megbízhatóság, ételek változatossága, ételérzékenység, környezettudatosság)
+3.5. A legkedveltebb ételkülönlegességek felmérése (magyaros ízek, más országok, régiók fogásai, a séf ajánlata, gyermek menük)
+3.6. Ételérzékenység figyelembe vétele (glutén-, laktózérzékenység, cukorbetegség, vegetáriánus, illetve vegán életmód)
+3.7. Fogyasztási szokások: Elvitelre/az étteremben/házhozszállítással
+3.8. Az étterem felszereltsége (etetőszék, légkondícionáló berendezés, svédasztal, önkiszolgáló ételrendelés, mosdólehetőség, drive kiszolgálás, bankártyás fizetés, parkolási lehetőség)
+3.9. Kedvezmények, árajánlatok fontosságának felmérése (korlátlan üdítőfogyasztás, ajándék kiegészítők egyes menük választása esetén, kuponfüzet, nyereményjáték)
