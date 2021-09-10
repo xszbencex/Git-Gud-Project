@@ -1,18 +1,21 @@
 # Étterem igény követelményspecifikáció
 
-***1. Jelenlegi helyzet***<br>
+***1. Áttekintés***<br>
+A weboldal célja igényfelmérést készíteni egy étteremnek. A weboldal az összes elterjedt webböngészőn (Firefox, Chrome, Edge, Opera) működjön megfelelően, illetve rendelkezik Web és Android felülettel, mindkettő módon, elérhető az összes felhasználói funkció. Az úrlap eldönthető rövid kérdéseket tartalmaz, amelyek felmérik a lakosok étkezési szokásait (ételérzéékenység, fogyasztási szokások, ételkülönlegességek, stb.). A későbbi felhasználás miatt, a bekért adatokat egy adatbázisban tároljuk.
+
+***2. Jelenlegi helyzet***<br>
 - Az **Apetit étteremlánc** Magyarországon eddig 23 városban van jelen és szeretnénk éttermet nyitni Debrecenben is.
 - Ehhez a cég szeretne igényfelmérést készíteni egy online űrlapon keresztül.
 - Szeretnénk felmérni a debreceni lakosok étkezési szokásait:
     - milyen gyakran étkeznekházon kívül
     - milyen preferenciák alapján választanak éttermet (étterem közelsége, ételek változatossága, ételek egzotikussága, barátok javaslatára stb...).
 
-***2. Vágyálom rendszer***<br>
+***3. Vágyálom rendszer***<br>
 - Az eredményes adatszerzés érdekében szükség van könnyen eldönthető rövid kérdésekre, és jól átlátható válaszlehetőségekre.
 - Ezen felül szükséges egy adatbázis, amely eltárolja a lakosoktól bekért adatokat, és ezekből az adatokból statisztikát is lehessen készíteni.
 - Elvárás hogy az űrlap platformfüggetlen legyen. Az online megjenés lehetőleg mobil telefonon, tableten is működjön, reszponzív felülettel.
 
-***3. Jelenlegi üzleti folyamatok***<br>
+***4. Jelenlegi üzleti folyamatok***<br>
 - 3.1. A házon kívüli étkezések gyakoriságának felmérése (naponta, hetente, havonta, évente,...)
 - 3.2. Milyen okokból étkeznek házon kívül (időmegtakarítás, társaság, nagyobb kínálat, jeles alkalmak megünneplése, gazdasági szempontok, ismerettség, kedvezmény, kényelem)
 - 3.3. Mely étkezdéket részesítenek előnyben (étterem, menza, kifőzde, gyorsétterem, élelmiszerbolt, bevásárlóközpontok étkező részlege)
@@ -24,7 +27,7 @@
 - 3.9. Kedvezmények, árajánlatok fontosságának felmérése (korlátlan üdítőfogyasztás, ajándék kiegészítők egyes menük választása esetén, kuponfüzet, nyereményjáték)
 
 
-***5. A rendszerre vonatkozó szabályok***<br>
+***6. A rendszerre vonatkozó szabályok***<br>
 - A web felület szabványos eszközökkel készüljön, html/css/javascript.
 - A jogszabályoknak megfelelően az adatvédelmi tájékoztó legyen megjelenítve a weboldalon.
 - Cookie-k használata esetén a cookie szabályzat megjelenítése is kötelező.
