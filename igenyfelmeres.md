@@ -43,3 +43,19 @@ A weboldal célja igényfelmérést készíteni egy étteremnek. A weboldal az �
 - 6.3. Amennyiben a kitöltő egy adott kérdésre 1-nél többet is kiválaszthat, arról tájékoztatást kap közvetlenül a kérdés után zárójelek között(válasszon ki egyet vagy többet).
 - 6.4. Abban az esetben, ha saját ötletet akarna hozzáírni a megadott opciókon felül, szerepelni fog minden kérdésblokkban egy szövegdoboz is, ahol begépelhet véges számú karaktersorozatot.
 - 6.5. A kitöltést követően egy köszönetnyilvánítási oldal fogadná a kitöltőt, melyben megköszönjük a kitöltést, illetve megadjuk további kérdés, javaslat írás igénye esetén elérhetőségünket.
+
+***7. Riportok***<br>
+Kérdőív irányított riporthoz.
+Interjú kérdések az elektronikus web felület (űrlap) követelményspecifikációjának felállításához. Kérjük, lehető legjobb tudása szerint töltse ki. A kérdezőbiztos nem válaszolhat kérdéseire, hogy ne befolyásolja Önt.
+- Mit gondol, egy megfelelően megválasztott kérdéseket tartalmazó űrlap kellőképpen fel tudja mérni a fogyasztói igényeket?
+- Milyen előnyöket nyújt Ön szerint, ha az emberek főzés helyett inkább éttermi ételeket fogyasztanak?
+- Milyen adatkezelési, biztonsági szintet kell kielégítenie Ön szerint egy elektronikus űrlapkitöltési felületnek?
+- Milyen fő funkciókat vár el egy ilyen felülettől?
+- Kérem írja körül, hogy Önöknél milyen webes funkciók az előírtak, preferáltak! Milyen nehézségek merültek fel a kivitelezésben?
+- Kérem, soroljon előnyöket/hátrányokat az elektronikus illetve papíralapú igenyfelmérések relációjában!
+- Az elektronikus űrlap esetén milyen szintű online megjelenést vár el a szerkesztőktől? Legyen a feleletkiválasztásos módon kívül válaszkifejtési lehetőség, esetleg pontozási sávok, ahol a kitöltők egy skálán tudnák rögzíteni folytonos értékekkel a válaszukat?
+- Mit gondol, mely böngésző a leggyakrabban használt egy átlag ember esetén?
+- Milyen kinézet, stílus a legkézenfekvőbb egy űrlap hatékony, gyors, egyszerű kitöltésére? Kérem, adjon képernyő terveket!
+- Milyen tapasztalatai vannak az online űrlap készítés, kitörést illetően?
+- Ön szerint hatékonynak bizonyul az online formában történő igények felmérése?
+- Fizetne Ön egy jól megszerkesztett weboldalon elérhető űrlap kitöltő felületért?
