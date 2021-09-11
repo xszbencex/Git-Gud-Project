@@ -36,3 +36,10 @@ A weboldal célja igényfelmérést készíteni egy étteremnek. A weboldal az �
 - A weboldal legyen modern, de egyszerű, az űrlapoknál fontos a feedback, hogy a felhasználó kijelölte az adott form-ot stb.
 - A képek nagy felbontásúak legyenek, vízjel nélkül és png vagy jpg formátumúak
 - A projektet ajánljuk valamilyen verziókezelő rendszer segítségével elkészíteni, a visszakövethetőség és az egyszerűbb csoportmunka miatt
+
+***7. Igényelt üzleti folyamatok***<br>
+- Az űrlapot kitöltő egy olyan weboldalon akar válaszolni a kérdésekre, ahol a kérdések számozva jelennek meg, majd alattuk egymás alatt felsorakozva választhat a meglévő válaszlehetőségek közül.
+- A kitöltés megkezdése előtt egy üdvözlő, bemutatkozó szöveg köszöntené a válaszadót, amelyben ismertetjük az űrlap elkészítésének okát.
+- Amennyiben a kitöltő egy adott kérdésre 1-nél többet is kiválaszthat, arról tájékoztatást kap közvetlenül a kérdés után zárójelek között(válasszon ki egyet vagy többet).
+- Abban az esetben, ha saját ötletet akarna hozzáírni a megadott opciókon felül, szerepelni fog minden kérdésblokkban egy szövegdoboz is, ahol begépelhet véges számú karaktersorozatot.
+- A kitöltést követően egy köszönetnyilvánítási oldal fogadná a kitöltőt, melyben megköszönjük a kitöltést, illetve megadjuk további kérdés, javaslat írás igénye esetén elérhetőségünket.
