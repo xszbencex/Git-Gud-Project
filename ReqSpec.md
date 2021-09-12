@@ -58,3 +58,19 @@ Interjú kérdések az elektronikus webfelület (űrlap) követelményspecifiká
 - Milyen tapasztalatai vannak az online űrlap készítés, kitörést illetően?
 - Ön szerint hatékonynak bizonyul az online formában történő igények felmérése?
 - Fizetne Ön egy jól megszerkesztett weboldalon elérhető űrlap kitöltő felületért?
+
+***8. Követelménylista***<br>
+A kérdőívben megjelenő funkciók táblázatba foglalása és al-funkciók leírása.
+
+|   Modul   | ID |         Név         | Kifejtés |
+|-----------|----|---------------------|----------|
+|Űrlap         | K1 |Kérdések (eldöntendő)|Az eldöntendő kérdésekre a választógombok segítségével, igen/nem válaszlehetőséggel lehet válaszolni.|
+|Űrlap         | K2 |Kérdések (választó)  |A csak egy válaszlehetőséggel bíró kérdéseket legördülőablakból vagy az előző pontban leírt választógombok segítségével lehet választani, míg a több választ is elfogadó kérdésekre a jelölőnégyzetekkel válaszolhat a felhasználó.|
+|Űrlap         | K3 |Kérdések (egyéb)|Ha a válaszadó nem találja meg a válaszlehetőségek közül a rá illőt, akkor az <b>egyéb</b> gombra kattintva és az ekkor megjelenő szövegmezőbe megírhatja egyedi válaszát.|
+|Űrlap         | K4 |Megjegyzés           |A kérdőívre válaszolók egy szövegmezőben írhatják le véleményüket az űrlapról, esetleges felmerülő kérdéseiket, melyekre nem tértek ki a kérdések és egyéb ötleteket is megoszthatnak az étteremmel.|
+|Statisztika   | K5 |Válaszok kiértékelése|A kérdésekre beérkező válaszok százalékos kiértékelése.|
+|Jogi szabályok| K6 |Jogi nyilatkozatok   |Adatvédelmi nyilatkozat, GDPR, ASZF, szükség esetén Cookie szabályzat feltüntetése a weblapon.|
+|Jogi szabályok| K7 |Checkbox             |Egy checkbox bepipálása nélkül nem küldheti el az űrlap adatait a felahasználó, ezért ennek hiányában szembetűnő értesítés jelenik meg a felületen.|
+|Felület       | K8 |Reszponzív felület   |Minden szabványos képernyőméret (monitor, tablet, telefon) esetén a weblap megfelelő módon nézzen ki.|
+|Felület       | K9 |Webböngésző támogatás|A legelterjedtebb webböngészőkön (Chrome, Firefox, Opera stb.) egyaránt igényes megejelnés és megfelelő működés elvárt.|
+|Felület       | K10|Űrlapok kinézete     |Lehetőség szerint az input mezők valamilyen könyvtár (pl. Bootstrap) használatával igényesen és modernül nézzenek ki|
