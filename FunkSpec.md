@@ -3,3 +3,30 @@ Egy olyan weboldalt fejlesztünk, űrlapot készítünk, amellyel megtudhatjuk, 
 
 ***2. Jelenlegi helyzet***<br>
 A megrendelő fel szeretné mérni a fogyaztők igényeit, hogy versenytársaihoz képest így jusson piaci előnyökhöz. Egy weboldal előállítását rendelte meg, amely interneten keresztül modern megoldásokat használva működik. A modern világ megköveteli. hogy minden felületen is elérhető legyen, ennek megfelelően kell formázni az úrlapot is. Egy olyan weboldalra lenne szükség, amely könnyen eldönthető rövid kérdéseket, és jól átlátható válaszlehetőségeket is tartalmaz. Az adatokat egy adatbázisba fogjuk elmenteni, annak érdekében, hogy a későbbiekben ezekből az adatokból statisztikát is lehessen készíteni.
+
+***3. Követelménylista***<br>
+Űrlapok:
+- K1 Eldöntendő kérdések:
+  - A felületen eldöntendő kérdéseket és igen/nem választási lehetőségeket kell megejelíteni
+  - A kérdéseket mi szolgáltatjuk önöknek
+- K2 Választó kérdések:
+  - Főként választó kérdések szerepeljenek, amelyek opciói egy lenyiló mezőben legyenek kiválaszthatók
+  - A kérdéseket és válaszokat itt is szintén mi szolgáltatjuk
+- K3 Megjegyzés mező:
+  - Legyen egy szövegmező, ahova írhatnak a kérdőív kitöltői bármilyen megjegyzést
+  - Itt azt várnánk a felhaszálótól, hogy olyan öteleteket/gondolatokat írnak, amelyekre esetleg a kérdések nem tértek ki, de szeretnék ha megvalósulnának az éttermünkben
+
+Jogi szabályok:
+- K4 Jogi nyilatkozatok megjelenítése:
+  - Adatvédelmi nyilatkozat, GDPR, ASZF, szükség esetén Cookie szabályzat feltüntetése a weblapon
+- K5 Checkbox az elfogadáshoz:
+  - Kell egy checkbox, amely bepipálása nélkül nem küldheti el az űrlap adatait a felahasználó
+  - Ha nem fogadta el, akkor szembetűnő módon jelezzük a felhasználó felé, hogy be kell pipálni a checkboxot
+
+Felület:
+- K6 Reszponzív felület:
+  - A weblap igényesen nézzen ki minden szabványos képernyőméret (monitor, tablet, telefon) esetén
+- K7 Webböngészők támogatása:
+  - A legelterjedtebb webböngészőkön (Chrome, Firefox, Opera stb.) egyaránt igényes megejelnés és megfelelő működés elvárt
+- K8 Űrlapok kinézete:
+  - Lehetőség szerint az input mezők valamilyen könyvtár (pl. Bootstrap) használatával igényesen és modernül nézzenek ki
