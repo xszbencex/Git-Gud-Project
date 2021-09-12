@@ -33,4 +33,4 @@ Felület:
 
 ***4. Képernyő tervezete***<br>
 Az űrlap tervezete okostelefon képernyőn:<br>
-![Képernyő tervezete](mini-project.png)
+<img src="mini-project.png" data-canonical-src="mini-project.png" width="445" height="681" />
