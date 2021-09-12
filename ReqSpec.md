@@ -7,7 +7,7 @@ A weboldal célja igényfelmérést készíteni egy étteremnek. A weboldal az �
 - Az **Apetit étteremlánc** Magyarországon eddig 23 városban van jelen és szeretnénk éttermet nyitni Debrecenben is.
 - Ehhez a cég szeretne igényfelmérést készíteni egy online űrlapon keresztül.
 - Szeretnénk felmérni a debreceni lakosok étkezési szokásait:
-    - milyen gyakran étkeznekházon kívül
+    - milyen gyakran étkeznek házon kívül
     - milyen preferenciák alapján választanak éttermet (étterem közelsége, ételek változatossága, ételek egzotikussága, barátok javaslatára stb...).
 
 ***3. Vágyálom rendszer***<br>
@@ -26,9 +26,8 @@ A weboldal célja igényfelmérést készíteni egy étteremnek. A weboldal az �
 - 4.8. Az étterem felszereltsége (etetőszék, légkondícionáló berendezés, svédasztal, önkiszolgáló ételrendelés, mosdólehetőség, drive kiszolgálás, bankártyás fizetés, parkolási lehetőség)
 - 4.9. Kedvezmények, árajánlatok fontosságának felmérése (korlátlan üdítőfogyasztás, ajándék kiegészítők egyes menük választása esetén, kuponfüzet, nyereményjáték)
 
-
 ***5. A rendszerre vonatkozó szabályok***<br>
-- A web felület szabványos eszközökkel készüljön, html/css/javascript.
+- A webfelület szabványos eszközökkel készüljön, html/css/javascript.
 - A jogszabályoknak megfelelően az adatvédelmi tájékoztó legyen megjelenítve a weboldalon.
 - Cookie-k használata esetén a cookie szabályzat megjelenítése is kötelező.
 - A weboldal az összes elterjedt webböngészőn (Firefox, Chrome, Edge, Opera) igényesen nézzen ki és működjön megfelelően.
@@ -38,7 +37,7 @@ A weboldal célja igényfelmérést készíteni egy étteremnek. A weboldal az �
 - A projektet ajánljuk valamilyen verziókezelő rendszer segítségével elkészíteni, a visszakövethetőség és az egyszerűbb csoportmunka miatt
 
 ***6. Igényelt üzleti folyamatok***<br>
-- 6.1 Az űrlapot kitöltő egy olyan weboldalon akar válaszolni a kérdésekre, ahol a kérdések számozva jelennek meg, majd alattuk egymás alatt felsorakozva választhat a meglévő válaszlehetőségek közül.
+- 6.1 Az űrlapot kitöltő egy olyan weboldalon akar válaszolni a kérdésekre, ahol a kérdések számozva jelennek meg, majd alattuk egy legördülő menüből választhat a megadott válaszlehetőségek közül.
 - 6.2. A kitöltés megkezdése előtt egy üdvözlő, bemutatkozó szöveg köszöntené a válaszadót, amelyben ismertetjük az űrlap elkészítésének okát.
 - 6.3. Amennyiben a kitöltő egy adott kérdésre 1-nél többet is kiválaszthat, arról tájékoztatást kap közvetlenül a kérdés után zárójelek között(válasszon ki egyet vagy többet).
 - 6.4. Abban az esetben, ha saját ötletet akarna hozzáírni a megadott opciókon felül, szerepelni fog minden kérdésblokkban egy szövegdoboz is, ahol begépelhet véges számú karaktersorozatot.
@@ -46,7 +45,7 @@ A weboldal célja igényfelmérést készíteni egy étteremnek. A weboldal az �
 
 ***7. Riportok***<br>
 Kérdőív irányított riporthoz.
-Interjú kérdések az elektronikus web felület (űrlap) követelményspecifikációjának felállításához. Kérjük, lehető legjobb tudása szerint töltse ki. A kérdezőbiztos nem válaszolhat kérdéseire, hogy ne befolyásolja Önt.
+Interjú kérdések az elektronikus webfelület (űrlap) követelményspecifikációjának felállításához. Kérjük, lehető legjobb tudása szerint töltse ki. A kérdezőbiztos nem válaszolhat kérdéseire, hogy ne befolyásolja Önt.
 - Mit gondol, egy megfelelően megválasztott kérdéseket tartalmazó űrlap kellőképpen fel tudja mérni a fogyasztói igényeket?
 - Milyen előnyöket nyújt Ön szerint, ha az emberek főzés helyett inkább éttermi ételeket fogyasztanak?
 - Milyen adatkezelési, biztonsági szintet kell kielégítenie Ön szerint egy elektronikus űrlapkitöltési felületnek?
