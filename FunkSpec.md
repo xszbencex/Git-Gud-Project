@@ -30,3 +30,7 @@ Felület:
   - A legelterjedtebb webböngészőkön (Chrome, Firefox, Opera stb.) egyaránt igényes megejelnés és megfelelő működés elvárt
 - K8 Űrlapok kinézete:
   - Lehetőség szerint az input mezők valamilyen könyvtár (pl. Bootstrap) használatával igényesen és modernül nézzenek ki
+
+***4. Képernyő tervezete***<br>
+Az űrlap tervezete okostelefon képernyőn:<br>
+![Képernyő tervezete](mini-project.png)
