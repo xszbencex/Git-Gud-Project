@@ -5,32 +5,17 @@ Egy olyan weboldalt fejlesztünk, űrlapot készítünk, amellyel megtudhatjuk, 
 A megrendelő fel szeretné mérni a fogyaztók igényeit, hogy versenytársaihoz képest így jusson piaci előnyökhöz. Egy weboldal előállítását rendelte meg, amely interneten keresztül modern megoldásokat használva működik. A modern világ megköveteli. hogy minden felületen is elérhető legyen, ennek megfelelően kell formázni az úrlapot is. Egy olyan weboldalra lenne szükség, amely könnyen eldönthető rövid kérdéseket, és jól átlátható válaszlehetőségeket is tartalmaz. Az adatokat egy adatbázisba fogjuk elmenteni, annak érdekében, hogy a későbbiekben ezekből az adatokból statisztikát is lehessen készíteni.
 
 ***3. Követelménylista***<br>
-Űrlapok:
-- K1 Eldöntendő kérdések:
-  - A felületen eldöntendő kérdéseket és igen/nem választási lehetőségeket kell megejelíteni
-  - A kérdéseket mi szolgáltatjuk önöknek
-- K2 Választó kérdések:
-  - Főként választó kérdések szerepeljenek, amelyek opciói egy lenyiló mezőben legyenek kiválaszthatók
-  - A kérdéseket és válaszokat itt is szintén mi szolgáltatjuk
-- K3 Megjegyzés mező:
-  - Legyen egy szövegmező, ahova írhatnak a kérdőív kitöltői bármilyen megjegyzést
-  - Itt azt várnánk a felhaszálótól, hogy olyan öteleteket/gondolatokat írnak, amelyekre esetleg a kérdések nem tértek ki, de szeretnék ha megvalósulnának az éttermünkben
-
-Jogi szabályok:
-- K4 Jogi nyilatkozatok megjelenítése:
-  - Adatvédelmi nyilatkozat, GDPR, ASZF, szükség esetén Cookie szabályzat feltüntetése a weblapon
-- K5 Checkbox az elfogadáshoz:
-  - Kell egy checkbox, amely bepipálása nélkül nem küldheti el az űrlap adatait a felahasználó
-  - Ha nem fogadta el, akkor szembetűnő módon jelezzük a felhasználó felé, hogy be kell pipálni a checkboxot
-
-Felület:
-- K6 Reszponzív felület:
-  - A weblap igényesen nézzen ki minden szabványos képernyőméret (monitor, tablet, telefon) esetén
-- K7 Webböngészők támogatása:
-  - A legelterjedtebb webböngészőkön (Chrome, Firefox, Opera stb.) egyaránt igényes megejelnés és megfelelő működés elvárt
-- K8 Űrlapok kinézete:
-  - Lehetőség szerint az input mezők valamilyen könyvtár (pl. Bootstrap) használatával igényesen és modernül nézzenek ki
-
+|   Modul   | ID |         Név         | Kifejtés |
+|-----------|----|---------------------|----------|
+|Űrlap         | K1 |Kérdések (eldöntendő)|A felületen eldöntendő kérdéseket és igen/nem választási lehetőségeket kell megjeleníteni, amelyek opcióit választógombok segítségével lehessen kiválasztani. (Csak 1 válaszlehetőség.) A kérdéseket a megrendelő szolgáltatja.|
+|Űrlap         | K2 |Kérdések (választó)  | Főként választó kérdések szerepeljenek. A csak egy válaszlehetőséggel bíró kérdéseket legördülőablakból vagy az előző pontban leírt választógombok segítségével lehet választani, míg a több választ is elfogadó kérdésekre a jelölőnégyzetekkel válaszolhat a felhasználó. A kérdéseket és válaszokat itt is szintén a megrendelő szolgáltatja.|
+|Űrlap         | K3 |Kérdések (egyéb)|Ha a válaszadó nem találja meg a válaszlehetőségek közül a rá illőt, akkor az <b>egyéb</b> gombra kattintva és az ekkor megjelenő szövegmezőbe megírhatja egyedi válaszát.|
+|Űrlap         | K4 |Megjegyzés           |A kérdőívre válaszolók egy szövegmezőben írhatják le véleményüket az űrlapról, esetleges felmerülő kérdéseiket, melyekre nem tértek ki a kérdések és egyéb ötleteket is megoszthatnak az étteremmel.|
+|Jogi szabályok| K5 |Jogi nyilatkozatok   |Adatvédelmi nyilatkozat, GDPR, ASZF, szükség esetén Cookie szabályzat feltüntetése a weblapon.|
+|Jogi szabályok| K6 |Checkbox             |Egy checkbox bepipálása nélkül nem küldheti el az űrlap adatait a felahasználó, ezért ennek hiányában szembetűnő értesítés jelenik meg a felületen.(javascript)|
+|Felület       | K7 |Reszponzív felület   |Minden szabványos képernyőméret (monitor, tablet, telefon) esetén a weblap megfelelő módon nézzen ki.(html,css)|
+|Felület       | K8 |Webböngésző támogatás|A legelterjedtebb webböngészőkön (Chrome, Firefox, Opera stb.) egyaránt igényes megejelnés és megfelelő működés elvárt.|
+|Felület       | K9 |Űrlapok kinézete     |Lehetőség szerint az input mezők valamilyen könyvtár (pl. Bootstrap) használatával igényesen és modernül nézzenek ki.|
 ***4. Képernyő tervezete***<br>
 Az űrlap tervezete okostelefon képernyőn:<br>
 <img src="mini-project.png" data-canonical-src="mini-project.png" width="445" height="681" />
