@@ -16,15 +16,18 @@ A weboldal célja igényfelmérést készíteni egy étteremnek. A weboldal az �
 - Elvárás hogy az űrlap platformfüggetlen legyen. Az online megjenés lehetőleg mobil telefonon, tableten is működjön, reszponzív felülettel.
 
 ***4. Jelenlegi üzleti folyamatok***<br>
-- 4.1. A házon kívüli étkezések gyakoriságának felmérése (naponta, hetente, havonta, évente,...)
-- 4.2. Milyen okokból étkeznek házon kívül (időmegtakarítás, társaság, nagyobb kínálat, jeles alkalmak megünneplése, gazdasági szempontok, ismerettség, kedvezmény, kényelem)
-- 4.3. Mely étkezdéket részesítenek előnyben (étterem, menza, kifőzde, gyorsétterem, élelmiszerbolt, bevásárlóközpontok étkező részlege)
-- 4.4. Mik a főbb szempontok, preferenciák egy étkezde kiválasztásában (közelség, ételek minősége, ár, kiszolgálás, népszerűség, megbízhatóság, ételek változatossága, ételérzékenység, környezettudatosság)
-- 4.5. A legkedveltebb ételkülönlegességek felmérése (magyaros ízek, más országok, régiók fogásai, a séf ajánlata, gyermek menük)
-- 4.6. Ételérzékenység figyelembe vétele (glutén-, laktózérzékenység, cukorbetegség, vegetáriánus, illetve vegán életmód)
-- 4.7. Fogyasztási szokások: Elvitelre/az étteremben/házhozszállítással
-- 4.8. Az étterem felszereltsége (etetőszék, légkondícionáló berendezés, svédasztal, önkiszolgáló ételrendelés, mosdólehetőség, drive kiszolgálás, bankártyás fizetés, parkolási lehetőség)
-- 4.9. Kedvezmények, árajánlatok fontosságának felmérése (korlátlan üdítőfogyasztás, ajándék kiegészítők egyes menük választása esetén, kuponfüzet, nyereményjáték)
+- 4.1. Étkezési szokásokra vonatkozó kérdések
+- 4.1.1. A házon kívüli étkezések gyakoriságának felmérése (naponta, hetente, havonta, évente,...)
+- 4.1.2. Milyen okokból étkeznek házon kívül (időmegtakarítás, társaság, nagyobb kínálat, jeles alkalmak megünneplése, gazdasági szempontok, ismerettség, kedvezmény, kényelem)
+- 4.2. Étkezdék tulajdonságaira vonatkozó kérdések
+- 4.2.1. Mely étkezdéket részesítenek előnyben (étterem, menza, kifőzde, gyorsétterem, élelmiszerbolt, bevásárlóközpontok étkező részlege)
+- 4.2.2. Mik a főbb szempontok, preferenciák egy étkezde kiválasztásában (közelség, ételek minősége, ár, kiszolgálás, népszerűség, megbízhatóság, ételek változatossága, ételérzékenység, környezettudatosság)
+- 4.3. A kínálatra vonatkozó kérdések
+- 4.3.1. A legkedveltebb ételkülönlegességek felmérése (magyaros ízek, más országok, régiók fogásai, a séf ajánlata, gyermek menük)
+- 4.3.2. Ételérzékenység figyelembe vétele (glutén-, laktózérzékenység, cukorbetegség, vegetáriánus, illetve vegán életmód)
+- 4.4. Fogyasztási szokások: Elvitelre/az étteremben/házhozszállítással
+- 4.5. Az étterem felszereltsége (etetőszék, légkondícionáló berendezés, svédasztal, önkiszolgáló ételrendelés, mosdólehetőség, drive kiszolgálás, bankártyás fizetés, parkolási lehetőség)
+- 4.6. Kedvezmények, árajánlatok fontosságának felmérése (korlátlan üdítőfogyasztás, ajándék kiegészítők egyes menük választása esetén, kuponfüzet, nyereményjáték)
 
 ***5. A rendszerre vonatkozó szabályok***<br>
 - A webfelület szabványos eszközökkel készüljön, html/css/javascript.
