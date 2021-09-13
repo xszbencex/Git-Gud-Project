@@ -16,6 +16,7 @@ A megrendelő fel szeretné mérni a fogyaztók igényeit, hogy versenytársaiho
 |Felület       | K7 |Reszponzív felület   |Minden szabványos képernyőméret (monitor, tablet, telefon) esetén a weblap megfelelő módon nézzen ki.(html,css)|
 |Felület       | K8 |Webböngésző támogatás|A legelterjedtebb webböngészőkön (Chrome, Firefox, Opera stb.) egyaránt igényes megejelnés és megfelelő működés elvárt.|
 |Felület       | K9 |Űrlapok kinézete     |Lehetőség szerint az input mezők valamilyen könyvtár (pl. Bootstrap) használatával igényesen és modernül nézzenek ki.|
+
 ***4. Képernyő tervezete***<br>
 Az űrlap tervezete okostelefon képernyőn:<br>
 <img src="mini-project.png" data-canonical-src="mini-project.png" width="445" height="681" />
