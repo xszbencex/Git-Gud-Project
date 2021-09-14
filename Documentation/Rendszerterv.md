@@ -2,3 +2,13 @@
 
 ***1. A rendszer célja***<br>
 A rendszer célja, hogy a válaszadók egy jól átlátható, könnyen értelmezhető, űrlapot tölthessenek ki, ahol a kitöltés gyors és hatékony minden korosztály számára. A felhasználói élmény növeléséhez fontos, hogy a kérdések és válaszok egyértelműen legyenek megfogalmazva, kerülve a többszörösen összetett mondatokat, bonyolult kifejezéseket. Továbbá elengedhetetlen, hogy minden kérdésblokk egymástól jól látható módon, elkülönítve jelenjen meg. Többféle válaszadási mód is elérhető lesz a kitöltés során: legördülő menüből való kiválasztás, eldöntendő kérdésekre igen/nem válaszlehetősek kiválasztása, megjegyzés mezőbe további gondolatok írása. Az űrlap nem csak számítógépen, hanem okostelefonon vagy tableten is elérhető lesz mindenki részére a legelterjedtebb webböngészőkön keresztül. A kitöltők a sikeres kitöltés után (minden kötelező kérdésre válaszolva) egy köszönetnyilvánító visszajelzést kapnak, illetve láthatják a szervezők elérhetőségeit is.
+
+***6. Fizikai környezet***<br>
+- Az űrlap Android és web platformra, hordozható eszközökre (okostelefonok, táblagépek) készül.
+- Az összes elterjedt webböngészőn (Firefox, Chrome, Edge, Opera) megfelelően működik.
+- Nincsenek megvásárolt komponenseink.
+- Fejlesztői eszközök:
+  - Visual Studio Code
+  - Bootstrap
+  - GIMP
+  - Trello
