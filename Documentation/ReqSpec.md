@@ -15,7 +15,17 @@ A weboldal célja igényfelmérést készíteni egy étteremnek. A weboldal az �
 - Ezen felül szükséges egy adatbázis, amely eltárolja a lakosoktól bekért adatokat, és ezekből az adatokból statisztikát is lehessen készíteni.
 - Elvárás hogy az űrlap platformfüggetlen legyen. Az online megjenés lehetőleg mobil telefonon, tableten is működjön, reszponzív felülettel.
 
-***4. Jelenlegi üzleti folyamatok***<br>
+***4. A rendszerre vonatkozó szabályok***<br>
+- A webfelület szabványos eszközökkel készüljön, html/css/javascript.
+- A jogszabályoknak megfelelően az adatvédelmi tájékoztó legyen megjelenítve a weboldalon.
+- Cookie-k használata esetén a cookie szabályzat megjelenítése is kötelező.
+- A weboldal az összes elterjedt webböngészőn (Firefox, Chrome, Edge, Opera) igényesen nézzen ki és működjön megfelelően.
+- Elavult (deprecated) technológiákat kérjük ne használjanak, az időtállóság miatt
+- A weboldal legyen modern, de egyszerű, az űrlapoknál fontos a feedback, hogy a felhasználó kijelölte az adott form-ot stb.
+- A képek nagy felbontásúak legyenek, vízjel nélkül és png vagy jpg formátumúak
+- A projektet ajánljuk valamilyen verziókezelő rendszer segítségével elkészíteni, a visszakövethetőség és az egyszerűbb csoportmunka miatt
+
+***5. Jelenlegi üzleti folyamatok***<br>
 - 4.1. Étkezési szokásokra vonatkozó kérdések
 - 4.1.1. A házon kívüli étkezések gyakoriságának felmérése (naponta, hetente, havonta, évente,...)
 - 4.1.2. Milyen okokból étkeznek házon kívül (időmegtakarítás, társaság, nagyobb kínálat, jeles alkalmak megünneplése, gazdasági szempontok, ismerettség, kedvezmény, kényelem)
@@ -29,22 +39,14 @@ A weboldal célja igényfelmérést készíteni egy étteremnek. A weboldal az �
 - 4.5. Az étterem felszereltsége (etetőszék, légkondícionáló berendezés, svédasztal, önkiszolgáló ételrendelés, mosdólehetőség, drive kiszolgálás, bankártyás fizetés, parkolási lehetőség)
 - 4.6. Kedvezmények, árajánlatok fontosságának felmérése (korlátlan üdítőfogyasztás, ajándék kiegészítők egyes menük választása esetén, kuponfüzet, nyereményjáték)
 
-***5. A rendszerre vonatkozó szabályok***<br>
-- A webfelület szabványos eszközökkel készüljön, html/css/javascript.
-- A jogszabályoknak megfelelően az adatvédelmi tájékoztó legyen megjelenítve a weboldalon.
-- Cookie-k használata esetén a cookie szabályzat megjelenítése is kötelező.
-- A weboldal az összes elterjedt webböngészőn (Firefox, Chrome, Edge, Opera) igényesen nézzen ki és működjön megfelelően.
-- Elavult (deprecated) technológiákat kérjük ne használjanak, az időtállóság miatt
-- A weboldal legyen modern, de egyszerű, az űrlapoknál fontos a feedback, hogy a felhasználó kijelölte az adott form-ot stb.
-- A képek nagy felbontásúak legyenek, vízjel nélkül és png vagy jpg formátumúak
-- A projektet ajánljuk valamilyen verziókezelő rendszer segítségével elkészíteni, a visszakövethetőség és az egyszerűbb csoportmunka miatt
-
 ***6. Igényelt üzleti folyamatok***<br>
 - 6.1 Az űrlapot kitöltő egy olyan weboldalon akar válaszolni a kérdésekre, ahol a kérdések számozva jelennek meg, majd alattuk egy legördülő menüből választhat a megadott válaszlehetőségek közül.
 - 6.2. A kitöltés megkezdése előtt egy üdvözlő, bemutatkozó szöveg köszöntené a válaszadót, amelyben ismertetjük az űrlap elkészítésének okát.
 - 6.3. Amennyiben a kitöltő egy adott kérdésre 1-nél többet is kiválaszthat, arról tájékoztatást kap közvetlenül a kérdés után zárójelek között(válasszon ki egyet vagy többet).
 - 6.4. Abban az esetben, ha saját ötletet akarna hozzáírni a megadott opciókon felül, szerepelni fog minden kérdésblokkban egy szövegdoboz is, ahol begépelhet véges számú karaktersorozatot.
 - 6.5. A kitöltést követően egy köszönetnyilvánítási oldal fogadná a kitöltőt, melyben megköszönjük a kitöltést, illetve megadjuk további kérdés, javaslat írás igénye esetén elérhetőségünket.
+
+<img src="uzleti_foly.png" data-canonical-src="uzleti_foly.png" width="909" height="521" />
 
 ***7. Riportok***<br>
 Kérdőív irányított riporthoz.
