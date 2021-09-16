@@ -2,7 +2,7 @@
 Egy olyan weboldalt fejlesztünk, űrlapot készítünk, amellyel megtudhatjuk, hogy a debreceni lakosok milyen szempontok szerint választanak házon kívüli étkezési lehetőségek közül. Célunk, hogy az általunk feltett kérdésekre kapott válaszokból majd egy olyan étteremmel bővüljön a város, ami a lehető legnagyobb mértékben ki tudja elégíteni a fogyasztók igényeit. Kérdéseink elsősorban az étkezési körülményekre, a kínálatra, az étterem megfelelő felszereltségére irányulnak. Amennyiben azt a visszajelzést kapjuk a kitöltők részéről, hogy lenne igény jeles ünnepek, események tartására az étteremben (például esküvő, lakodalom, ballagási összejövetelek, szülinapi/névnapi ünneplések, diáktábori étkezések), úgy abban az esetben természetesen nem csak a helyszínt, hanem az étkeztetést is módunkban áll majd biztosítani vendégeink részére. Az igényeket igyekszünk a lehető legtöbb oldalról felmérni, így az űrlap kitöltésében résztvevőknek az általunk feltett kérdéseknél törekszünk minél több választási lehetőséget feltüntetni, ugyanakkor lehetőséget kínálunk további saját megjegyzés, ötlet hozzáfűzésére is. Az űrlap bárki számára hasznos és elérhető lesz online felületen. Természetesen nem csak számítógépen lesz elérhető, hanem célunk, hogy minél több platformon hozzá lehessen férni, legyen az tablet vagy telefon. Az elérhetőség/kitöltés ingyenes lesz, így bárki hozzáférhet a felméréshez, továbbá anonim jellegű.
 
 ***2. Jelenlegi helyzet***<br>
-A megrendelő fel szeretné mérni a fogyaztók igényeit, hogy versenytársaihoz képest így jusson piaci előnyökhöz. Egy weboldal előállítását rendelte meg, amely interneten keresztül modern megoldásokat használva működik. A modern világ megköveteli. hogy minden felületen is elérhető legyen, ennek megfelelően kell formázni az úrlapot is. Egy olyan weboldalra lenne szükség, amely könnyen eldönthető rövid kérdéseket, és jól átlátható válaszlehetőségeket is tartalmaz. Az adatokat egy adatbázisba fogjuk elmenteni, annak érdekében, hogy a későbbiekben ezekből az adatokból statisztikát is lehessen készíteni.
+A megrendelő fel szeretné mérni a fogyasztók igényeit, hogy versenytársaihoz képest így jusson piaci előnyökhöz. Egy weboldal előállítását rendelte meg, amely interneten keresztül modern megoldásokat használva működik. A modern világ megköveteli. hogy minden felületen is elérhető legyen, ennek megfelelően kell formázni az úrlapot is. Egy olyan weboldalra lenne szükség, amely könnyen eldönthető rövid kérdéseket, és jól átlátható válaszlehetőségeket is tartalmaz. Az adatokat egy adatbázisba fogjuk elmenteni, annak érdekében, hogy a későbbiekben ezekből az adatokból statisztikát is lehessen készíteni.
 
 ***3. Követelménylista***<br>
 |   Modul   | ID |         Név         | Kifejtés |
@@ -22,7 +22,9 @@ Manapság azok emberek, akik nagyvárosban élnek kevés szabadidővel rendelkez
   
 ***5. Igényelt üzleti folyamatok midellje***<br>
 Éttermünk, az Apetit étteremlánc nagy múltú cég, tehát jelentős tapasztalattal rendelkezik. Számos területen értünk el piacvezető pozíciót. Hatalmas választékkal bíró éttermünk képes kielégíteni a speciális igényű vendégek igényeit (vegetáriánusok, vegánok, glutén, szója, laktóz érzékenyek stb.) ugyanúgy, mint a hagyományos étrendet követők igényeit.
-Kiváló séfjeink képesek elhozni más országok egzotikus ételkülönlegességeit. Nagyméretű éttermeink alkalmasak nagyszabású rendezvényekhez (esküvői lakodalmakhoz, ballagásokhoz konferenciákhoz stb...).
+Kiváló séfjeink képesek elhozni más országok egzotikus ételkülönlegességeit. Nagyméretű éttermeink alkalmasak nagyszabású rendezvényekhez (esküvői lakodalmakhoz, ballagásokhoz konferenciákhoz stb...).<br>
+  
+
 ***6. Használati esetek***<br>
 -FELHASZNÁLÓ: A Kérdőívhez belépve, jogosultsága van a mezők kitöltésére és válaszlehetőségek kiválasztására, valmint elküldésére.<br>
 -ADMIN: Az ADMIN beléphet mindegyik más szerepkörbe,
