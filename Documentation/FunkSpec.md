@@ -21,7 +21,7 @@ A megrendelő fel szeretné mérni a fogyaztók igényeit, hogy versenytársaiho
 Manapság azok emberek, akik nagyvárosban élnek kevés szabadidővel rendelkeznek a felgyorsult életvitelük miatt, ezért szeretnek étterembe járni, mert  megspórpolják azt az időt, amit a főzéssel töltenének otthon. Ráadásul nagyvárosban sok rendezvényt tartanak (esküvő, ballagás, születésnapi buli stb...) amelynek az éttermek tudnak a legszínvonalasabb helyet nyűjtani. Debrecenben sajnos még nem alakult ki nagyméretű étteremlánc, amely el tudná látni a nagylétszámú lakossága igényeit. Kevés olyan étterem van a városban, amely elhozná az emberek számára más országok ételkülönlegességeit. Kevés étterem foglalkozik az extra igényű vendégekkel. (laktóz érzékenyek, glutén érzékenyek, vegánok stb...) Jelenleg étermünk, az <b>Apetit étteremlánc<b> képes ellátni ezeket a feladatokat.
   
 ***6. Használati esetek***<br>
--FELHASZNÁLÓ: A Kérdőívhez belépve, jogosultsága van a mezők kitöltésére és válaszlehetőségek kiválasztására, valmint elküldésére.
+-FELHASZNÁLÓ: A Kérdőívhez belépve, jogosultsága van a mezők kitöltésére és válaszlehetőségek kiválasztására, valmint elküldésére.<br>
 -ADMIN: Az ADMIN beléphet mindegyik más szerepkörbe,
 hogy az hibamentes működését ellenőrizhesse. Az Admin
 feladata a rendszer problémamentes működtetése. Ez egyben jár azzal,
