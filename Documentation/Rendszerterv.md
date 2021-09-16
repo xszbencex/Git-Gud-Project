@@ -3,6 +3,29 @@
 ***1. A rendszer célja***<br>
 A rendszer célja, hogy a válaszadók egy jól átlátható, könnyen értelmezhető, űrlapot tölthessenek ki, ahol a kitöltés gyors és hatékony minden korosztály számára. A felhasználói élmény növeléséhez fontos, hogy a kérdések és válaszok egyértelműen legyenek megfogalmazva, kerülve a többszörösen összetett mondatokat, bonyolult kifejezéseket. Továbbá elengedhetetlen, hogy minden kérdésblokk egymástól jól látható módon, elkülönítve jelenjen meg. Többféle válaszadási mód is elérhető lesz a kitöltés során: legördülő menüből való kiválasztás, eldöntendő kérdésekre igen/nem válaszlehetősek kiválasztása, megjegyzés mezőbe további gondolatok írása. Az űrlap nem csak számítógépen, hanem okostelefonon vagy tableten is elérhető lesz mindenki részére a legelterjedtebb webböngészőkön keresztül. A kitöltők a sikeres kitöltés után (minden kötelező kérdésre válaszolva) egy köszönetnyilvánító visszajelzést kapnak, illetve láthatják a szervezők elérhetőségeit is.
 
+***2. Projektterv***<br>
+**Projekt munkatársak és felelőségek:**
+
+Backend munkálatok: 
+- Pete Balázs
+- Szabó Bence
+- Szimeonov Viktória
+- Tóth Csenge Beatrix
+- Tóth Zoltán
+
+Feladatuk a funkciók létrehozása és megvalósítása.
+
+| Funkció / Story | Feladat / Task | Prioritás | Becslés | Aktuális becslés | Eltelt idő | Hátralévő idő |
+|-----------------|----------------|-----------|---------|------------------|------------|---------------|
+| Követelmény specifikáció | | 0 | 12 | 12 | 12 | 0 |
+| Funkcionális specifikáció | | 0 | 12 | 12 | 12 | 0 |
+| Rendszerterv | | 0 | 16 | 16 | 12 | 12 |
+| | | | | | | |
+| | | | | | | |
+| | | | | | | |
+| | | | | | | |
+
+
 ***4. Követelmények***<br>
 Követelmények, funkciók, melyek a megfelelő működéshez elengedhetetlenek.
 - Funkcionális követelmények:
@@ -35,7 +58,6 @@ Követelmények, funkciók, melyek a megfelelő működéshez elengedhetetlenek.
   - GIMP
   - Trello
 
-  ***12. Telepítési terv***<br>
-  - Webes alkalmazás
-    - A szoftver webes felületéhez csak egy ajánlott böngésző telepítése szükséges (Google Chrome, Firefox, Opera, Safari), külön szoftver nem kell hozzá. A weboldalra közvetlenül
-    az internetről kapcsolódnak rá a kliensek.
+***12. Telepítési terv***<br>
+**Webes alkalmazás:**
+    A szoftver webes felületéhez csak egy ajánlott böngésző telepítése szükséges (Google Chrome, Firefox, Opera, Safari), külön szoftver nem kell hozzá. A weboldalra közvetlenül az internetről kapcsolódnak rá a kliensek.
