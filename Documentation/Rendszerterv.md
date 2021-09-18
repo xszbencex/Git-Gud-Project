@@ -82,6 +82,42 @@ A Webes felület főként HTML, CSS, és Javascript nyelven fog készülni.
 Ezeket a technológiákat amennyire csak lehet külön fájlokba írva készítjük, és
 úgy fogjuk egymáshoz csatolni a jobb átláthatóság, könnyebb változtathatóság,
 és könnyebb bővítés érdekében.
+  
+***Tesztterv***<br>
+   A tesztelések célja a rendszer és komponensei funkcionalitásának
+teljes vizsgálata, ellenőrzése, a rendszer által megvalósított üzleti
+szolgáltatások verifikálása.<br>
+  
+**Tesztelési eljárások**
+ 
+<ins>Unit teszt:<ins>
+  
+Ahol csak lehetséges, szükséges már a fejlesztési idő alatt is tesztelni, hogy a
+metódusok megfelelően működnek-e.
+Ezért a metódusok megfelelő működésének biztosítására mindegyikhez írni
+kell Unit teszteket, a minél nagyobb kódlefedettséget szem előtt tartva. A
+metódusok akkor vannak kész, ha a tesztesetek hiba nélkül lefutnak az egyes
+metódusokon.
+  
+<ins>Alfa teszt:<ins>
+  
+  A teszt elsődleges célja: az eddig meglévő funkcióknak a különböző
+böngészőkkel, és androidokkal való kompatibilitásának tesztelése. A tesztet a
+fejlesztők végzik.
+  Az eljárás sikeres, ha különböző böngészőkben és különböző androidokon is
+megfelelően működnek a különböző funkciók.
+  A teszt időtartama egy hét.
+  
+<ins>Tesztelendő funkciók<ins>
+  
+<b>Backend Service<b>
+  
+- Képesnek kell lennie csatlakozni webes, és androidos klienshez is.
+- Képesnek kell lennie egy időben kiszolgálni több klienst is.
+- Képesnek kell lennie minden felületen elérhető funkciók biztosítására.
+  
+
+
 
 ***12. Telepítési terv***<br>
 **Webes alkalmazás:**
