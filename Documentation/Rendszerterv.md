@@ -77,6 +77,7 @@ FELHASZNÁLÓ:
   
 ***Implementációs terv***<br>
 <ins>Web<ins>:
+
 A Webes felület főként HTML, CSS, és Javascript nyelven fog készülni.
 Ezeket a technológiákat amennyire csak lehet külön fájlokba írva készítjük, és
 úgy fogjuk egymáshoz csatolni a jobb átláthatóság, könnyebb változtathatóság,
