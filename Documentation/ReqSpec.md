@@ -27,24 +27,24 @@ A weboldal célja igényfelmérést készíteni egy étteremnek. A weboldal az �
 
 ***5. Jelenlegi üzleti folyamatok***<br>
 - 4.1. Étkezési szokásokra vonatkozó kérdések
-- 4.1.1. A házon kívüli étkezések gyakoriságának felmérése (naponta, hetente, havonta, évente,...)
-- 4.1.2. Milyen okokból étkeznek házon kívül (időmegtakarítás, társaság, nagyobb kínálat, jeles alkalmak megünneplése, gazdasági szempontok, ismerettség, kedvezmény, kényelem)
+- 4.1.1. Kérdés: A házon kívüli étkezések gyakorisága => naponta, hetente, havonta, évente válaszlehetőségek felsorolása (1 válaszlehetőség)
+- 4.1.2. kérdés: Milyen okokból étkeznek házon kívül => időmegtakarítás, társaság, nagyobb kínálat, jeles alkalmak megünneplése, gazdasági szempontok, ismerettség, kedvezmény, kényelem válaszlehetőségek felsorolása (több választási lehetőség egyszerre)
 - 4.2. Étkezdék tulajdonságaira vonatkozó kérdések
-- 4.2.1. Mely étkezdéket részesítenek előnyben (étterem, menza, kifőzde, gyorsétterem, élelmiszerbolt, bevásárlóközpontok étkező részlege)
-- 4.2.2. Mik a főbb szempontok, preferenciák egy étkezde kiválasztásában (közelség, ételek minősége, ár, kiszolgálás, népszerűség, megbízhatóság, ételek változatossága, ételérzékenység, környezettudatosság)
+- 4.2.1. kérdés : Mely étkezdéket részesítenek előnyben => étterem, menza, kifőzde, gyorsétterem, élelmiszerbolt, bevásárlóközpontok étkező részlege válaszlehetőségek felsorolása (több választási lehetőség egyszerre)
+- 4.2.2. kérdés: Mik a főbb szempontok, preferenciák egy étkezde kiválasztásában => közelség, ételek minősége, ár, kiszolgálás, népszerűség, megbízhatóság, ételek változatossága, ételérzékenység, környezettudatosság válaszlehetőségek felsorolása (több választási lehetőség egyszerre)
 - 4.3. A kínálatra vonatkozó kérdések
-- 4.3.1. A legkedveltebb ételkülönlegességek felmérése (magyaros ízek, más országok, régiók fogásai, a séf ajánlata, gyermek menük)
-- 4.3.2. Ételérzékenység figyelembe vétele (glutén-, laktózérzékenység, cukorbetegség, vegetáriánus, illetve vegán életmód)
-- 4.4. Fogyasztási szokások: Elvitelre/az étteremben/házhozszállítással
-- 4.5. Az étterem felszereltsége (etetőszék, légkondícionáló berendezés, svédasztal, önkiszolgáló ételrendelés, mosdólehetőség, drive kiszolgálás, bankártyás fizetés, parkolási lehetőség)
-- 4.6. Kedvezmények, árajánlatok fontosságának felmérése (korlátlan üdítőfogyasztás, ajándék kiegészítők egyes menük választása esetén, kuponfüzet, nyereményjáték)
+- 4.3.1. Kérdés: A legkedveltebb ételkülönlegességekre vonatkozóan => magyaros ízek, más országok, régiók fogásai, a séf ajánlata, gyermek menük válaszlehetőségek felsorolása
+- 4.3.2. kérdés: Ételérzékenységre vonatkozóan => glutén-, laktózérzékenység, cukorbetegség, vegetáriánus, illetve vegán életmód válaszlehetőségek felsorolása (több választási lehetőség egyszerre)
+- 4.4. kérdés: Fogyasztási szokásokra vonatkozóan => Elvitelre/az étteremben/házhozszállítással válaszlehetőségek felsorolása (több választási lehetőség egyszerre)
+- 4.5. kérdés: Az étterem felszereltségére vonatkozóan => etetőszék, légkondícionáló berendezés, svédasztal, önkiszolgáló ételrendelés, mosdólehetőség, drive kiszolgálás, bankártyás fizetés, parkolási lehetőség válaszlehetőségek felsorolása (több választási lehetőség egyszerre)
+- 4.6. kérdés: Kedvezmények, árajánlatok fontosságára vonatkozóan => korlátlan üdítőfogyasztás, ajándék kiegészítők egyes menük választása esetén, kuponfüzet, nyereményjáték válaszlehetőségek felsorolása (több választási lehetőség egyszerre)
 
 ***6. Igényelt üzleti folyamatok***<br>
-- 6.1 Az űrlapot kitöltő egy olyan weboldalon akar válaszolni a kérdésekre, ahol a kérdések számozva jelennek meg, majd alattuk egy legördülő menüből választhat a megadott válaszlehetőségek közül.
+- 6.1 Az űrlapot kitöltő egy olyan weboldalon akar válaszolni a kérdésekre, ahol a kérdések számozva jelennek meg => majd alattuk egy legördülő menüből választhat a megadott válaszlehetőségek közül.
 - 6.2. A kitöltés megkezdése előtt egy üdvözlő, bemutatkozó szöveg köszöntené a válaszadót, amelyben ismertetjük az űrlap elkészítésének okát.
 - 6.3. Amennyiben a kitöltő egy adott kérdésre 1-nél többet is kiválaszthat, arról tájékoztatást kap közvetlenül a kérdés után zárójelek között(válasszon ki egyet vagy többet).
 - 6.4. Abban az esetben, ha saját ötletet akarna hozzáírni a megadott opciókon felül, szerepelni fog minden kérdésblokkban egy szövegdoboz is, ahol begépelhet véges számú karaktersorozatot.
-- 6.5. A kitöltést követően egy köszönetnyilvánítási oldal fogadná a kitöltőt, melyben megköszönjük a kitöltést, illetve megadjuk további kérdés, javaslat írás igénye esetén elérhetőségünket.
+- 6.5. A kitöltést követően egy köszönetnyilvánítási oldal fogadná a kitöltőt, melyben megköszönjük a kitöltést => illetve megadjuk további kérdés, javaslat írás igénye esetén elérhetőségünket.
 
 <img src="uzleti_foly.png" data-canonical-src="uzleti_foly.png" width="909" height="521" />
 
