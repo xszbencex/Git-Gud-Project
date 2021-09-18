@@ -66,6 +66,7 @@ FELHASZNÁLÓ:
 
 
 ***6. Fizikai környezet***<br>
+  
 - Az űrlap Android és web platformra, hordozható eszközökre (okostelefonok, táblagépek) készül.
 - Az összes elterjedt webböngészőn (Firefox, Chrome, Edge, Opera) megfelelően működik.
 - Nincsenek megvásárolt komponenseink.
@@ -84,6 +85,7 @@ Ezeket a technológiákat amennyire csak lehet külön fájlokba írva készítj
 és könnyebb bővítés érdekében.
   
 ***11. Tesztterv***<br>
+  
    A tesztelések célja a rendszer és komponensei funkcionalitásának
 teljes vizsgálata, ellenőrzése, a rendszer által megvalósított üzleti
 szolgáltatások verifikálása.<br>
