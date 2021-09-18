@@ -54,7 +54,7 @@ Követelmények, funkciók, melyek a megfelelő működéshez elengedhetetlenek.
 - Admin
 - érdőív kitöltő személy
 
-**<ins>Rendszerhasználati esetek és lefutásaik:<ins>**
+**<ins>Rendszerhasználati esetek és lefutásaik:<ins>**<br>
 ADMIN:
 - Beléphet bármilyen szereplőként teljes hozzáférése van a rendszerhez
 - A felhasználói adatokat látják, változtathatják
