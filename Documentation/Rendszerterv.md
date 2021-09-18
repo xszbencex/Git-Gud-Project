@@ -83,7 +83,7 @@ Ezeket a technológiákat amennyire csak lehet külön fájlokba írva készítj
 úgy fogjuk egymáshoz csatolni a jobb átláthatóság, könnyebb változtathatóság,
 és könnyebb bővítés érdekében.
   
-***Tesztterv***<br>
+***11. Tesztterv***<br>
    A tesztelések célja a rendszer és komponensei funkcionalitásának
 teljes vizsgálata, ellenőrzése, a rendszer által megvalósított üzleti
 szolgáltatások verifikálása.<br>
