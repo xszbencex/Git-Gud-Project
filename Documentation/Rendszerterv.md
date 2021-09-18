@@ -76,7 +76,7 @@ FELHASZNÁLÓ:
   - GIMP
   - Trello
   
-***Implementációs terv***<br>
+***10. Implementációs terv***<br>
 <ins>Web<ins>:
 
 A Webes felület főként HTML, CSS, és Javascript nyelven fog készülni.
