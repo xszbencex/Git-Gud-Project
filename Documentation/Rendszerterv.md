@@ -46,7 +46,24 @@ Követelmények, funkciók, melyek a megfelelő működéshez elengedhetetlenek.
 - Törvényi előírások, szabványok:
   - GDPR-nak, ÁSZF-nek való megfelelés.
   - Szükség esetén Cookie szabályzat feltüntése a weboldalon.
-  - Checkbox jóváhagyása nélkül az űrlapon feltüntetett válaszok elküldése nem engedélyezett. 
+  - Checkbox jóváhagyása nélkül az űrlapon feltüntetett válaszok elküldése nem engedélyezett.
+
+
+***5. Funkcionális terv***<br>
+**<ins>Rendszer szereplők:<ins>**
+- Admin
+- érdőív kitöltő személy
+
+**<ins>Rendszerhasználati esetek és lefutásaik:<ins>**
+ADMIN:
+- Beléphet bármilyen szereplőként teljes hozzáférése van a rendszerhez
+- A felhasználói adatokat látják, változtathatják
+- Felhasználói adatok módosítása
+- Tesztek létrehozása, törlése, módosítása
+
+FELHASZNÁLÓ:
+- képes a kérdőív minden kérdésére válaszolni.
+
 
 ***6. Fizikai környezet***<br>
 - Az űrlap Android és web platformra, hordozható eszközökre (okostelefonok, táblagépek) készül.
