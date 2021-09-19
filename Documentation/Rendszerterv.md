@@ -124,3 +124,12 @@ megfelelően működnek a különböző funkciók.
 ***12. Telepítési terv***<br>
 **Webes alkalmazás:**
     A szoftver webes felületéhez csak egy ajánlott böngésző telepítése szükséges (Google Chrome, Firefox, Opera, Safari), külön szoftver nem kell hozzá. A weboldalra közvetlenül az internetről kapcsolódnak rá a kliensek.
+
+
+***13. Karbantartási terv***<br>
+A weboldal folyamatos üzemeltetése és karbantartása, mely magába foglalja a programhibák elhárítását, a belső igények változása miatti módosításokat, valamint a környezeti feltételek változása miatt megfogalmazott program-, illetve állomány módosítási igényeket.
+
+**Karbantartás:**
+- A felhasználók által felfedezett hibák javítása.
+- A weboldal naprakészen tartása és finomhangolása.
+-  Olyan problémák elhárítása, amelyek még nem tűnnek fontosnak, de később komoly problémákat okozhatnak.
