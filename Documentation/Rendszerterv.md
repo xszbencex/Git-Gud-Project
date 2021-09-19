@@ -101,7 +101,7 @@ FELHASZNÁLÓ:
    ]
 }</code></pre>
   
-***10. Implementációs terv***<br>
+***8. Implementációs terv***<br>
 
 A Webes felület főként HTML, CSS, és Javascript nyelven fog készülni.
 Ezeket a technológiákat amennyire csak lehet külön fájlokba írva készítjük, és
@@ -109,7 +109,7 @@ Ezeket a technológiákat amennyire csak lehet külön fájlokba írva készítj
 és könnyebb bővítés érdekében. Képes lesz feldolgozni a JSON állományt, és a benne 
 tárolt adatok alapján a kérdéseket megfelelően megjeleníteni a felületen.
   
-***11. Tesztterv***<br>
+***9. Tesztterv***<br>
   
    A tesztelések célja a rendszer és komponensei funkcionalitásának
 teljes vizsgálata, ellenőrzése, a rendszer által megvalósított üzleti
@@ -146,12 +146,12 @@ megfelelően működnek a különböző funkciók.
 
 
 
-***12. Telepítési terv***<br>
+***10. Telepítési terv***<br>
 **Webes alkalmazás:**
     A szoftver webes felületéhez csak egy ajánlott böngésző telepítése szükséges (Google Chrome, Firefox, Opera, Safari), külön szoftver nem kell hozzá. A weboldalra közvetlenül az internetről kapcsolódnak rá a kliensek.
 
 
-***13. Karbantartási terv***<br>
+***11. Karbantartási terv***<br>
 A weboldal folyamatos üzemeltetése és karbantartása, mely magába foglalja a programhibák elhárítását, a belső igények változása miatti módosításokat, valamint a környezeti feltételek változása miatt megfogalmazott program-, illetve állomány módosítási igényeket.
 
 **Karbantartás:**
