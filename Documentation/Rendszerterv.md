@@ -75,6 +75,28 @@ FELHASZNÁLÓ:
   - Bootstrap
   - GIMP
   - Trello
+
+***7. Architektúrális terv***<br>
+
+- A webalkalmazás keretrendszer nélkül készül, natív javascript, html és css segítségével, így az alkamzásnak nincsen semmilyen függősége és a telepítéssel sem kell bajlódni.
+- A kérdéseket és válaszokat JSON állományban tároljuk és az programunk ezt dolgozza fel javascript segítségével.
+- A JSON állomány szerkezete a következő:
+<pre><code>{
+     "questions": [
+      {
+        "id": "1",
+        "question": "Kérdés szövege",
+        "type": "Kérdés típusa",   // "options" vagy "text" vagy "decidable"
+        "options": ["Lehetőség 1", "Lehetőség 2", ...]    // "options" típus esetén
+      },
+      {
+        "id": "2",
+        "question": "Kérdés szövege",
+        "type": "Kérdés típusa",   // "options" vagy "text" vagy "decidable"
+        "options": ["Lehetőség 1", "Lehetőség 2", ...]    // "options" típus esetén
+      }
+   ]
+}</code></pre>
   
 ***10. Implementációs terv***<br>
 <ins>Web<ins>:
