@@ -1,0 +1,40 @@
+.content-container {
+    width: 60%;
+    margin: 20px auto;
+    padding-bottom: 30px;
+}
+
+.question-container {
+    border-radius: 10px;
+    background-color: #f7edd7;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+
+.question {
+    margin-bottom: 10px;
+}
+
+.number {
+    font-size: larger;
+    font-weight: bold;
+}
+
+.progress-bar-container {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.progress-bar {
+    background-color: var(--main-color);
+}
+
+.button-container {
+    margin-top: 20px;
+}
+
+.submit-btn {
+    background-color: var(--main-color);
+    color: white;
+}
