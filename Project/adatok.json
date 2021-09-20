@@ -1,1 +1,48 @@
-
+{
+    "questions": [
+     {
+       "id": "1",
+       "question": "Neme?",
+       "type": "decidable",   
+       "options": ["Nő", "Férfi"]    
+     },
+     {
+       "id": "2",
+       "question": "Mi az Ön foglalkozása?",
+       "type": "decidable",
+       "options": ["Diák", "Alkalmazott", "Vezető","Vállakozó","Háztartásbeli","Munkanélküli","Nyugdíjas"]
+     },
+     {
+        "id": "3",
+        "question": "Hogy gondolja, az Ön jövedelme:",
+        "type": "decidable",
+        "options": ["Az átlagosnál jóval magasabb", "Az átlagosnál magasabb","Átlagos","Az átlagosnál alacsonyabb",
+            "Az átlagosnál jóval alacsonyabb"]
+      },
+      {
+        "id": "4",
+        "question": "Mi az Ön családi állapota?",
+        "type": "decidable",
+        "options": ["Egyedülálló", "Házas","Élettársi kapcsolatban élek","Elvált","Özvegy"]
+      },
+      {
+        "id": "5",
+        "question": "Egy alkalommal átlagosan mennyit költ?",
+        "type": "decidable",
+        "options": ["Kevesebb, mint 5.000 Ft-ot", "5.000-10.000 Ft között","10.000-15.000 Ft között",
+            "Többet, mint 15.000 Ft"]
+      },
+      {
+        "id": "6",
+        "question": "Milyen céllal jár étterembe? (több válasz lehetséges)",
+        "type": "options",
+        "options": ["Üzleti", "Baráti összejövetel","Családi összejövetel","Pusztán étkezés céljából"]
+      },
+      {
+        "id": "7",
+        "question": "Szeret új éttermeket kipróbálni?",
+        "type": "logical",
+        "options": ["Igen", "Nem"]
+      }
+  ]
+}
