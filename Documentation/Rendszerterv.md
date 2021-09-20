@@ -158,3 +158,8 @@ A weboldal folyamatos üzemeltetése és karbantartása, mely magába foglalja a
 - A felhasználók által felfedezett hibák javítása.
 - A weboldal naprakészen tartása és finomhangolása.
 -  Olyan problémák elhárítása, amelyek még nem tűnnek fontosnak, de később komoly problémákat okozhatnak.
+
+***12. Képernyőtervek***<br>
+
+![Képernyő tervezete](kepernyoterv1.png)<br>
+![Képernyő tervezete](kepernyoterv2.png)
