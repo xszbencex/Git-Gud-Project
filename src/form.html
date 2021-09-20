@@ -7,7 +7,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="form-style.css">
-    <title>Document</title>
+    <link rel="shortcut icon" type="image/png" href="image/icon.png"/>
+    <title>Igényfelmérés</title>
 </head>
 <body>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -71,9 +72,18 @@
                         Elolvastam és elfogadom az adatvédelmi szabályzatot
                     </label>
                 </div>
-                <div class="button-container">
-                    <button class="btn submit-btn" type="submit">Elküldés</button>
+                
+                <div class="button-container" >
+                    <button id="myBtn" class="btn submit-btn" type="submit"> <a id="submit_btn" role="button" href="index.html">Elküldés</a></button>
                 </div>
+
+                <div id="myModal" class="modal">
+                    <div class="modal-content">
+                      <span class="close">&times;</span>
+                      <p>Köszönjük szépen a kitöltést!  &#x1F60A;</p>
+                    </div>
+                </div>
+
             </form>
         </div>
         <div class="progress-bar-container">
@@ -82,5 +92,28 @@
             </div>
         </div>
     </div>
+
+    <script>
+        var modal = document.getElementById("myModal");
+        
+        var btn = document.getElementById("myBtn");
+        
+        var span = document.getElementsByClassName("close")[0];
+    
+        btn.onclick = function() {
+          modal.style.display = "block";
+        }
+
+        span.onclick = function() {
+          modal.style.display = "none";
+        }
+        
+        window.onclick = function(event) {
+          if (event.target == modal) {
+            modal.style.display = "none";
+          }
+        }
+    </script>
+
 </body>
 </html>
