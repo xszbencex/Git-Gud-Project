@@ -43,6 +43,79 @@
         "question": "Szeret új éttermeket kipróbálni?",
         "type": "logical",
         "options": ["Igen", "Nem"]
+      },
+      {
+        "id": "8",
+        "question": "Milyen gyakran étkezik házon kívül?",
+        "type": "options",
+        "options": ["Naponta", "Hetente", "Havonta", "Évente"]
+      },
+      {
+        "id": "9",
+        "question": "Milyen okokból étkezik házon kívül?",
+        "type": "decidable",
+        "options": ["Időmegtakarítás", "Jó a társaság", "Nagyobb kínálat", "Jeles alkalmak megünneplése", "Gazdasági okokból", "Ismerettség miatt", "Kedvezményesebb", "Kényelmesebb"]
+      },
+      {
+        "id": "10",
+        "question": "Milyen étkezdéket részesít előnyben?",
+        "type": "decidable",
+        "options": ["Étterem", "Menza", "Kifőzde", "Gyorsétterem", "Élelmiszerbolt", "Bevásárlóközpontok étkező részlege"]
+      },
+      {
+        "id": "11",
+        "question": "Mely szempontok alapján választ magának az étkezdék közül?",
+        "type": "decidable",
+        "options": ["Közelség", "Ételek minősége", "Ár", "Kiszolgálás", "Népszerűség", "Megbízhatóság", "Ételek változatossága", "Ételérzékenység", "Környezettudatosság"]
+      
+      },
+      {
+        "id": "12",
+        "question": "Milyen ételkülönlegességeket fogyaszt a legszívesebben?",
+        "type": "decidable",
+        "options": ["Magyaros ízek", "Más országok, régiók fogásai", "A séf ajánlata", "Gyermek menük"]
+      },
+      {
+        "id": "13",
+        "question": "Önnek van valamilyen ételallergiája?",
+        "type": "logical",
+        "options": ["Igen", "Nem"]
+      },
+      {
+        "id": "14",
+        "question": "Ha az előző kérdésre igen volt a válasza, milyen ételallergiája van?",
+        "type": "decidable",
+        "options": ["Gluténérzékenység", "Laktózérzékenység", "Cukorbetegség"]
+      },
+      {
+        "id": "15",
+        "question": "Ön folytat valamilyen tudatos életmódot?",
+        "type": "logical",
+        "options": ["Igen", "Nem"]
+      },
+      {
+        "id": "16",
+        "question": "Ha az előző kérdésre igen volt a válasza, milyen életmódot gyakorol?",
+        "type": "options",
+        "options": ["Vegetáriánus életmód", "Vegán életmód"]
+      },
+      {
+        "id": "17",
+        "question": "Az alábbiak közül mely étkezési lehetőséget kedveli a legjobban?",
+        "type": "options",
+        "options": ["Elvitelre kérem az ételt", "Az étteremben fogyasztom el a legyszívesebben az ételt", "Házhozszállítással rendelem meg az ételt"]
+      },
+      {
+        "id": "18",
+        "question": "Ön szerint milyen szolgáltatásokkal, berendezési tárgyakkal kell rendelkeznie egy ideális étteremnek?",
+        "type": "decidable",
+        "options": ["Etetőszék", "Légkondícionáló berendezés", "Svédasztal", "Önkiszolgáló ételrendelés", "Mosdólehetőség", "Drive kiszolgálás", "Bankkártyás fizetés", "Parkolási lehetőség"]
+      },
+      {
+        "id": "19",
+        "question": "Ön mely kedvezménytípusokat kedveli a legjobban?",
+        "type": "decidable",
+        "options": ["Korlátlan üdítőfogyasztás", "Ajándék kiegészítők egyes menük választása esetén", "Kuponfüzet", "Nyereményjáték"]
       }
   ]
 }
