@@ -1,91 +1,91 @@
 {
     "questions": [
      {
-       "id": "1",
-       "question": "Neme?",
-       "type": "decidable",   
-       "options": ["Nő", "Férfi"]    
-     },
-     {
-       "id": "2",
-       "question": "Mi az Ön foglalkozása?",
-       "type": "decidable",
-       "options": ["Diák", "Alkalmazott", "Vezető","Vállakozó","Háztartásbeli","Munkanélküli","Nyugdíjas"]
-     },
-     {
-        "id": "3",
+        "id": "1",
         "question": "Hogy gondolja, az Ön jövedelme:",
         "type": "decidable",
         "options": ["Az átlagosnál jóval magasabb", "Az átlagosnál magasabb","Átlagos","Az átlagosnál alacsonyabb",
             "Az átlagosnál jóval alacsonyabb"]
       },
       {
-        "id": "4",
-        "question": "Mi az Ön családi állapota?",
-        "type": "decidable",
-        "options": ["Egyedülálló", "Házas","Élettársi kapcsolatban élek","Elvált","Özvegy"]
-      },
-      {
-        "id": "5",
+        "id": "2",
         "question": "Egy alkalommal átlagosan mennyit költ?",
         "type": "decidable",
         "options": ["Kevesebb, mint 5.000 Ft-ot", "5.000-10.000 Ft között","10.000-15.000 Ft között",
             "Többet, mint 15.000 Ft"]
       },
       {
-        "id": "6",
+        "id": "3",
         "question": "Milyen céllal jár étterembe? (több válasz lehetséges)",
         "type": "options",
         "options": ["Üzleti", "Baráti összejövetel","Családi összejövetel","Pusztán étkezés céljából"]
       },
       {
-        "id": "7",
+        "id": "4",
+        "question": "Melyik napszakban jár leginkább étterembe?",
+        "type": "decidable",
+        "options": ["Reggel", "Délelőtt", "Délben", "Délután", "Este"]
+      },
+      {
+        "id": "5",
         "question": "Szeret új éttermeket kipróbálni?",
         "type": "logical",
         "options": ["Igen", "Nem"]
       },
       {
-        "id": "8",
+        "id": "6",
         "question": "Milyen gyakran étkezik házon kívül?",
         "type": "decidable",
         "options": ["Naponta", "Hetente", "Havonta", "Évente"]
       },
       {
-        "id": "9",
+        "id": "7",
         "question": "Milyen okokból étkezik házon kívül? (több válasz lehetséges)",
         "type": "options",
         "options": ["Időmegtakarítás", "Jó a társaság", "Nagyobb kínálat", "Jeles alkalmak megünneplése", "Gazdasági okokból", "Ismerettség miatt", "Kedvezményesebb", "Kényelmesebb"]
       },
       {
-        "id": "10",
+        "id": "8",
         "question": "Milyen étkezdéket részesít előnyben? (több válasz lehetséges)",
         "type": "options",
         "options": ["Étterem", "Menza", "Kifőzde", "Gyorsétterem", "Élelmiszerbolt", "Bevásárlóközpontok étkező részlege"]
       },
       {
-        "id": "11",
+        "id": "9",
         "question": "Mely szempontok alapján választ magának az étkezdék közül? (több válasz lehetséges)",
         "type": "options",
         "options": ["Közelség", "Ételek minősége", "Ár", "Kiszolgálás", "Népszerűség", "Megbízhatóság", "Ételek változatossága", "Ételérzékenység", "Környezettudatosság"]
       
       },
       {
-        "id": "12",
+        "id": "10",
         "question": "Milyen ételkülönlegességeket fogyaszt a legszívesebben? (több válasz lehetséges)",
         "type": "options",
         "options": ["Magyaros ízek", "Más országok, régiók fogásai", "A séf ajánlata", "Gyermek menük"]
       },
       {
-        "id": "13",
+        "id": "11",
+        "question": "Milyen italt iszik az ételekhez? (több válasz lehetséges)",
+        "type": "options",
+        "options": ["Szénsavas üdítőt", "Teát", "Ásványvizet", "Egyebet"]
+      },
+      {
+        "id": "12",
         "question": "Önnek van valamilyen ételallergiája?",
         "type": "logical",
         "options": ["Igen", "Nem"]
       },
       {
-        "id": "14",
+        "id": "13",
         "question": "Ha az előző kérdésre igen volt a válasza, milyen ételallergiája van? (több válasz lehetséges)",
         "type": "options",
         "options": ["Gluténérzékenység", "Laktózérzékenység", "Cukorbetegség"]
+      },
+      {
+        "id": "14",
+        "question": "Figyel-e Ön az ételek összetételére?",
+        "type": "decidable",
+        "options": ["Igen, mindig megkérdezem mik az összetevői", "Ha fel van tüntetve, elolvasom", "Nem szoktam megnézni, hogy fel van-e tüntetve", "Nem szoktam elolvasni"]
       },
       {
         "id": "15",
@@ -116,6 +116,24 @@
         "question": "Ön mely kedvezménytípusokat kedveli a legjobban? (több válasz lehetséges)",
         "type": "options",
         "options": ["Korlátlan üdítőfogyasztás", "Ajándék kiegészítők egyes menük választása esetén", "Kuponfüzet", "Nyereményjáték"]
-      }
+      },
+      {
+       "id": "20",
+       "question": "Neme?",
+       "type": "decidable",   
+       "options": ["Nő", "Férfi"]    
+     },
+     {
+       "id": "21",
+       "question": "Mi az Ön foglalkozása?",
+       "type": "decidable",
+       "options": ["Diák", "Alkalmazott", "Vezető","Vállakozó","Háztartásbeli","Munkanélküli","Nyugdíjas"]
+     },
+     {
+        "id": "22",
+        "question": "Mi az Ön családi állapota?",
+        "type": "decidable",
+        "options": ["Egyedülálló", "Házas","Élettársi kapcsolatban élek","Elvált","Özvegy"]
+     }
   ]
 }
