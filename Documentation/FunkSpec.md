@@ -32,6 +32,9 @@ hogy az hibamentes működését ellenőrizhesse. Az Admin
 feladata a rendszer problémamentes működtetése. Ez egyben jár azzal,
 hogy az egész rendszerhez van hozzáférése.
 
-***5. Képernyő tervezete***<br>
-Az űrlap tervezete okostelefon képernyőn:<br>
+***7. Képernyő tervezete***<br>
+A weboldal megnyitásakor egy kezdőlapra érkezünk, ahonnan elérhetjük a kitöltendő űrlapot, valamint egyéb menüpontokat.<br> 
+A kezdőlap tartalmazza a weboldal létrehozásának célját, innen közvetlenül elérhető az űrlap, ami természetesen a menüből is megnyitható.
+Ezeken felül még egy galéria és egy kapcsolat menüpont is kínálkozik. A galéria ételkülönlegességek fotóit tartalmazza, míg a kapcsolat az étteremlánc további elérhetőségeit. 
+Az űrlap egyszerűsített tervezete okostelefon képernyőn:<br>
 <img src="mini-project.png" data-canonical-src="mini-project.png" width="445" height="681" />
