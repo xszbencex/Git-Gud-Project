@@ -90,6 +90,11 @@ function processData(response) {
                 }
                 break;
             default:
+                let errorContainer = document.createElement('div');
+                errorContainer.style.color = 'red';
+                errorContainer.innerHTML = 'Hiba az adatok feldolgozása közben.'
+                answers.appendChild(errorContainer);
+                break;
           }
     }
 }
