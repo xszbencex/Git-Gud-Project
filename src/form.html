@@ -68,10 +68,22 @@
                       </div>
                 </div>
                 <div class="asd">
-                    <input type="checkbox" id="flexCheckDefault" name="accept-terms" class="form-check-input">
+                    <input type="checkbox" id="flexCheckDefault" name="accept-terms" class="form-check-input" onclick="myFunction()">
                     <label for="flexCheckDefault" class="form-check-label">
                         Elolvastam és elfogadom az adatvédelmi szabályzatot
                     </label>
+                    <p id="text" style="display:block">Az űrlap kitöltése előtt pipálja be a jelölőnégyzetet!</p>
+                    <script>
+                      function myFunction() {
+                        var checkBox = document.getElementById("flexCheckDefault");
+                        var text = document.getElementById("text");
+                        if (checkBox.checked == true){
+                          text.style.display = "none";
+                        } else {
+                           text.style.display = "block";
+                        }
+                      }
+                      </script>
                 </div>
                 
                </form>
