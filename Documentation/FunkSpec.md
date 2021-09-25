@@ -34,4 +34,4 @@ hogy az egész rendszerhez van hozzáférése.
 
 ***5. Képernyő tervezete***<br>
 Az űrlap tervezete okostelefon képernyőn:<br>
-<img src="mini-project.png" data-canonical-src="mini-project.png" width="445" height="681" />
+<img src="images/mini-project.png" data-canonical-src="images/mini-project.png" width="445" height="681" />
