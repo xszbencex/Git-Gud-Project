@@ -66,7 +66,7 @@
             </ul>
         </div>
         <div class="content-container">
-            <form class="needs-validation" novalidate>
+            <form id="form" class="needs-validation" novalidate onchange="setProgressBarWidth()">
                 <div id="dynamic-questions-wrapper">
                 </div>
                 <div class="question-container">
@@ -80,7 +80,7 @@
                     <label for="flexCheckDefault" class="form-check-label">
                         Elolvastam és elfogadom az adatvédelmi szabályzatot
                     </label>
-                    <div class="invalid-feedback">Az adatvédelmi szabályzat elfogadása kötelező</div>
+                    <div class="invalid-feedback">Az adatvédelmi szabályzat elfogadása kötelező!</div>
                 </div>
                 <div class="submit-container">
                   <button type="submit" class="btn submit-btn">Űrlap elküldése</button>
@@ -98,7 +98,7 @@
 
         <div class="progress-bar-container">
             <div class="progress" style="height: 10px;">
-                <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                <div id="progress-bar" class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
         </div>
     </div>

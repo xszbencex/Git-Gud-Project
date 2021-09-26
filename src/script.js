@@ -1,7 +1,11 @@
 var questionList;
+var form;
+var progressBar;
 
 window.onload = function() {
     loadJSON();
+    form = document.getElementById('form');
+    progressBar = document.getElementById('progress-bar');
 }
 
 function loadJSON() {
@@ -71,7 +75,7 @@ function processData(response) {
                     if (i == question.options.length - 1) {
                         let invalidError = document.createElement('div');
                         invalidError.className = 'invalid-feedback';
-                        invalidError.innerText = 'Egy lehetőség kiválasztása kötelező';
+                        invalidError.innerText = 'Egy lehetőség kiválasztása kötelező!';
                         radioButtonContainer.appendChild(invalidError);
                     }
                     answers.appendChild(radioButtonContainer);
@@ -89,7 +93,7 @@ function processData(response) {
                     checkbox.className = 'form-check-input';
                     checkbox.name = 'q' + question.id;
                     checkbox.required = true;
-
+                    checkbox.onchange = () => changeRequiredLogic(checkbox);
 
                     let label = document.createElement('label');
                     label.htmlFor = 'check-q' + question.id + "-a" + (i + 1);
@@ -102,7 +106,7 @@ function processData(response) {
                     if (i == question.options.length - 1) {
                         let invalidError = document.createElement('div');
                         invalidError.className = 'invalid-feedback';
-                        invalidError.innerText = 'Legalább egy lehetőség kiválasztása kötelező';
+                        invalidError.innerText = 'Legalább egy lehetőség kiválasztása kötelező!';
                         checkboxContainer.appendChild(invalidError);
                     }
 
@@ -119,4 +123,43 @@ function processData(response) {
                 break;
           }
     }
+}
+
+function changeRequiredLogic(checkbox) {
+    let checkboxes = document.getElementsByName(checkbox.name);
+    if (checkbox.checked) {
+        for (let check of checkboxes) {
+            !check.checked ? check.required = false : check.required = true;
+        }
+    } else {
+        let atLeastOneIsChecked = false;
+        for (let check of checkboxes) {
+            if (check.checked) {
+                atLeastOneIsChecked = true;
+            }
+        }
+        if (atLeastOneIsChecked) {
+            checkbox.required = false;
+        } else {
+            for (let check of checkboxes) {
+                check.required = true;
+            }  
+        }
+    }
+}
+
+function setProgressBarWidth() {
+    let count = 0;
+    for (const formField of form.elements) {
+        if (formField.validity.valid) {
+            ++count;
+        }
+    }
+    const newWidth = String((count / form.elements.length) * 100);
+    progressBar.style.width = newWidth + '%';
+    progressBar.setAttribute('aria-valuenow', newWidth)
+}
+
+function onFormSubmit() {
+    
 }
