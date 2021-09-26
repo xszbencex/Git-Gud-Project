@@ -13,9 +13,11 @@ A megrendelő fel szeretné mérni a fogyasztók igényeit, hogy versenytársaih
 |Űrlap         | K4 |Megjegyzés           |A kérdőívre válaszolók egy szövegmezőben írhatják le véleményüket az űrlapról, esetleges felmerülő kérdéseiket, melyekre nem tértek ki a kérdések és egyéb ötleteket is megoszthatnak az étteremmel.|
 |Jogi szabályok| K5 |Jogi nyilatkozatok   |Adatvédelmi nyilatkozat, GDPR, ASZF, szükség esetén Cookie szabályzat feltüntetése a weblapon.|
 |Jogi szabályok| K6 |Checkbox             |Egy checkbox bepipálása nélkül nem küldheti el az űrlap adatait a felahasználó, ezért ennek hiányában szembetűnő értesítés jelenik meg a felületen.(javascript)|
-|Felület       | K7 |Reszponzív felület   |Minden szabványos képernyőméret (monitor, tablet, telefon) esetén a weblap megfelelő módon nézzen ki.(html,css)|
-|Felület       | K8 |Webböngésző támogatás|A legelterjedtebb webböngészőkön (Chrome, Firefox, Opera stb.) egyaránt igényes megejelnés és megfelelő működés elvárt.|
-|Felület       | K9 |Űrlapok kinézete     |Lehetőség szerint az input mezők valamilyen könyvtár (pl. Bootstrap) használatával igényesen és modernül nézzenek ki.|
+|Felület       | K7 |Kapcsolat menüpont   |Lesz egy Kapcsolat menüpont, fel lesznek tüntetve az étterem elérhetőségei. (cím, e-mail cím, telefonszám)|
+|Felület       | K8 |Galéria menüpont   |Lesz egy Galéria menüpont, ahol megtekinthetők az eddig megnyitott éttermeink belsejéről készült képek.|
+|Felület       | K9 |Reszponzív felület   |Minden szabványos képernyőméret (monitor, tablet, telefon) esetén a weblap megfelelő módon nézzen ki.(html,css)|
+|Felület       | K10 |Webböngésző támogatás|A legelterjedtebb webböngészőkön (Chrome, Firefox, Opera stb.) egyaránt igényes megejelnés és megfelelő működés elvárt.|
+|Felület       | K11 |Űrlapok kinézete     |Lehetőség szerint az input mezők valamilyen könyvtár (pl. Bootstrap) használatával igényesen és modernül nézzenek ki.|
 
 ***4. Jelenlegi üzleti folyamatok modellje***<br>
 Manapság azok emberek, akik nagyvárosban élnek kevés szabadidővel rendelkeznek a felgyorsult életvitelük miatt, ezért szeretnek étterembe járni, mert  megspórpolják azt az időt, amit a főzéssel töltenének otthon. Ráadásul nagyvárosban sok rendezvényt tartanak (esküvő, ballagás, születésnapi buli stb...) amelynek az éttermek tudnak a legszínvonalasabb helyet nyűjtani. Debrecenben sajnos még nem alakult ki nagyméretű étteremlánc, amely el tudná látni a nagylétszámú lakossága igényeit. Kevés olyan étterem van a városban, amely elhozná az emberek számára más országok ételkülönlegességeit. Kevés étterem foglalkozik az extra igényű vendégekkel. (laktóz érzékenyek, glutén érzékenyek, vegánok stb...) Jelenleg étermünk, az <b>Apetit étteremlánc<b> képes ellátni ezeket a feladatokat.<br>
