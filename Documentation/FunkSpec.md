@@ -61,8 +61,8 @@ Az űrlap egyszerűsített tervezete okostelefon képernyőn:<br>
 <img src="images/mini-project.png" data-canonical-src="images/mini-project.png" width="445" height="681" />
 
  
- ***8. Forgatókönyv***<br>
- **Szereplők:**<br>
+ ***8. Forgatókönyv***<br><br>
+ **Szereplők:**<br><br>
 Futási időben két szereplő figyelhető meg. Az
 első szereplő maga a futó ALKALMAZÁS. (weben/androidon)
 Ezzel van interakcióban a második szereplő, maga a FELHASZNÁLÓ, aki kitölti a kérdőívet, úgy hogy minden kérdésre kötelező válaszolnia, és ha szükséges, akkor írhat megjegyzést a legtolsó szövegdobozba. A kérdőív kitöltése után a "kérdőív elküldése" gombra kattintva továbbítódik a felhasználó válasza a megrendelő felé.<br>
