@@ -65,5 +65,5 @@ Az űrlap egyszerűsített tervezete okostelefon képernyőn:<br>
  **Szereplők:**<br>
 Futási időben két szereplő figyelhető meg. Az
 első szereplő maga a futó ALKALMAZÁS. (weben/androidon)
-Ezzel van interakcióban a második szereplő, maga a FELHASZNÁLÓ, aki kitölti a kérdőívet, úgy hogy minden kérdésre kötelező válaszolnia, és ha szüksége van akkor írhat megjegyzést a legtolsó szövegdobozba.
-Futási időn kívüli szereplő az ADMIN, aki ellenőrzi a weboldal megfelelő működését, teszteket végez és kiértékeli az eredményeket, valamint kijavítja a hibákat és fejleszti a weboldalt.
+Ezzel van interakcióban a második szereplő, maga a FELHASZNÁLÓ, aki kitölti a kérdőívet, úgy hogy minden kérdésre kötelező válaszolnia, és ha szükséges, akkor írhat megjegyzést a legtolsó szövegdobozba. A kérdőív kitöltése után a "kérdőív elküldése" gombra kattintva továbbítódik a felhasználó válasza a megrendelő felé.<br>
+Futási időn kívüli szereplő az ADMIN, aki ellenőrzi a weboldal megfelelő működését, teszteket végez és kiértékeli az eredményeket, valamint kijavítja a hibákat és fejleszti a weboldalt. Folyamatos kommunikációt tart fenn a megrendelővel, akihez beérkeznek az esetleges plusz igények az étteremmel kapcsolatban a felhasználóktól.
