@@ -19,7 +19,7 @@ Feladatuk a funkciók létrehozása és megvalósítása.
 |-----------------|----------------|-----------|---------|------------------|------------|---------------|
 | Követelmény specifikáció | | 0 | 12 | 12 | 12 | 0 |
 | Funkcionális specifikáció | | 0 | 12 | 12 | 12 | 0 |
-| Rendszerterv | | 0 | 16 | 16 | 12 | 12 |
+| Rendszerterv | | 0 | 16 | 16 | 16 | 0 |
 | Fejlesztés | HTML | 1 | 12 | 12 | 12 | 0 |
 | | CSS | 1 | 12 | 12 | 12 | 0 |
 | |JavaScript | 1 | 12 | 12 | 12 | 0 |
