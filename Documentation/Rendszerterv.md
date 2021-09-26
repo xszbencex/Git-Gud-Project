@@ -29,7 +29,7 @@ Feladatuk a funkciók létrehozása és megvalósítása.
 
 ***3. Üzleti folyamatok modellje***<br>
 
-<img src="üzl_foly_mod_beta.png" data-canonical-src="üzl_foly_mod_beta.png" width="768" height="576" />
+<img src="images/üzl_foly_mod_beta.png" data-canonical-src="images/üzl_foly_mod_beta.png" width="768" height="576" />
 
 ***4. Követelmények***<br>
 Követelmények, funkciók, melyek a megfelelő működéshez elengedhetetlenek.
@@ -102,6 +102,9 @@ FELHASZNÁLÓ:
       }
    ]
 }</code></pre>
+
+***8. Adatbázis terv***<br>
+![Adatmodell](images/adatmodell.png)
   
 ***8. Implementációs terv***<br>
 
@@ -163,5 +166,5 @@ A weboldal folyamatos üzemeltetése és karbantartása, mely magába foglalja a
 
 ***12. Képernyőtervek***<br>
 
-![Képernyő tervezete](kepernyoterv1.png)<br>
-![Képernyő tervezete](kepernyoterv2.png)
+![Képernyő tervezete](images/kepernyoterv1.png)<br>
+![Képernyő tervezete](images/kepernyoterv2.png)

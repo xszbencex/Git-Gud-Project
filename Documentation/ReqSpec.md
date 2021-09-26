@@ -46,7 +46,7 @@ A weboldal célja igényfelmérést készíteni egy étteremnek. A weboldal az �
 - 6.4. Abban az esetben, ha saját ötletet akarna hozzáírni a megadott opciókon felül, szerepelni fog minden kérdésblokkban egy szövegdoboz is, ahol begépelhet véges számú karaktersorozatot.
 - 6.5. A kitöltést követően egy köszönetnyilvánítási oldal fogadná a kitöltőt, melyben megköszönjük a kitöltést => illetve megadjuk további kérdés, javaslat írás igénye esetén elérhetőségünket.
 
-<img src="uzleti_foly.png" data-canonical-src="uzleti_foly.png" width="909" height="521" />
+<img src="images/uzleti_foly.png" data-canonical-src="images/uzleti_foly.png" width="909" height="521" />
 
 
 ***7. Riportok***<br>
