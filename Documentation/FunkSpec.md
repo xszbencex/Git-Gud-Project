@@ -18,7 +18,20 @@ A megrendelő fel szeretné mérni a fogyasztók igényeit, hogy versenytársaih
 |Felület       | K9 |Űrlapok kinézete     |Lehetőség szerint az input mezők valamilyen könyvtár (pl. Bootstrap) használatával igényesen és modernül nézzenek ki.|
 
 ***4. Jelenlegi üzleti folyamatok modellje***<br>
-Manapság azok emberek, akik nagyvárosban élnek kevés szabadidővel rendelkeznek a felgyorsult életvitelük miatt, ezért szeretnek étterembe járni, mert  megspórpolják azt az időt, amit a főzéssel töltenének otthon. Ráadásul nagyvárosban sok rendezvényt tartanak (esküvő, ballagás, születésnapi buli stb...) amelynek az éttermek tudnak a legszínvonalasabb helyet nyűjtani. Debrecenben sajnos még nem alakult ki nagyméretű étteremlánc, amely el tudná látni a nagylétszámú lakossága igényeit. Kevés olyan étterem van a városban, amely elhozná az emberek számára más országok ételkülönlegességeit. Kevés étterem foglalkozik az extra igényű vendégekkel. (laktóz érzékenyek, glutén érzékenyek, vegánok stb...) Jelenleg étermünk, az <b>Apetit étteremlánc<b> képes ellátni ezeket a feladatokat.
+Manapság azok emberek, akik nagyvárosban élnek kevés szabadidővel rendelkeznek a felgyorsult életvitelük miatt, ezért szeretnek étterembe járni, mert  megspórpolják azt az időt, amit a főzéssel töltenének otthon. Ráadásul nagyvárosban sok rendezvényt tartanak (esküvő, ballagás, születésnapi buli stb...) amelynek az éttermek tudnak a legszínvonalasabb helyet nyűjtani. Debrecenben sajnos még nem alakult ki nagyméretű étteremlánc, amely el tudná látni a nagylétszámú lakossága igényeit. Kevés olyan étterem van a városban, amely elhozná az emberek számára más országok ételkülönlegességeit. Kevés étterem foglalkozik az extra igényű vendégekkel. (laktóz érzékenyek, glutén érzékenyek, vegánok stb...) Jelenleg étermünk, az <b>Apetit étteremlánc<b> képes ellátni ezeket a feladatokat.<br>
+ 
+- 4.1. Étkezési szokásokra vonatkozó kérdések
+- 4.1.1. Kérdés: A házon kívüli étkezések gyakorisága => naponta, hetente, havonta, évente válaszlehetőségek felsorolása (1 válaszlehetőség)
+- 4.1.2. kérdés: Milyen okokból étkeznek házon kívül => időmegtakarítás, társaság, nagyobb kínálat, jeles alkalmak megünneplése, gazdasági szempontok, ismerettség, kedvezmény, kényelem válaszlehetőségek felsorolása (több választási lehetőség egyszerre)
+- 4.2. Étkezdék tulajdonságaira vonatkozó kérdések
+- 4.2.1. kérdés : Mely étkezdéket részesítenek előnyben => étterem, menza, kifőzde, gyorsétterem, élelmiszerbolt, bevásárlóközpontok étkező részlege válaszlehetőségek felsorolása (több választási lehetőség egyszerre)
+- 4.2.2. kérdés: Mik a főbb szempontok, preferenciák egy étkezde kiválasztásában => közelség, ételek minősége, ár, kiszolgálás, népszerűség, megbízhatóság, ételek változatossága, ételérzékenység, környezettudatosság válaszlehetőségek felsorolása (több választási lehetőség egyszerre)
+- 4.3. A kínálatra vonatkozó kérdések
+- 4.3.1. Kérdés: A legkedveltebb ételkülönlegességekre vonatkozóan => magyaros ízek, más országok, régiók fogásai, a séf ajánlata, gyermek menük válaszlehetőségek felsorolása
+- 4.3.2. kérdés: Ételérzékenységre vonatkozóan => glutén-, laktózérzékenység, cukorbetegség, vegetáriánus, illetve vegán életmód válaszlehetőségek felsorolása (több választási lehetőség egyszerre)
+- 4.4. kérdés: Fogyasztási szokásokra vonatkozóan => Elvitelre/az étteremben/házhozszállítással válaszlehetőségek felsorolása (több választási lehetőség egyszerre)
+- 4.5. kérdés: Az étterem felszereltségére vonatkozóan => etetőszék, légkondícionáló berendezés, svédasztal, önkiszolgáló ételrendelés, mosdólehetőség, drive kiszolgálás, bankártyás fizetés, parkolási lehetőség válaszlehetőségek felsorolása (több választási lehetőség egyszerre)
+- 4.6. kérdés: Kedvezmények, árajánlatok fontosságára vonatkozóan => korlátlan üdítőfogyasztás, ajándék kiegészítők egyes menük választása esetén, kuponfüzet, nyereményjáték válaszlehetőségek felsorolása (több választási lehetőség egyszerre)
   
 ***5. Igényelt üzleti folyamatok midellje***<br>
 Éttermünk, az Apetit étteremlánc nagy múltú cég, tehát jelentős tapasztalattal rendelkezik. Számos területen értünk el piacvezető pozíciót. Hatalmas választékkal bíró éttermünk képes kielégíteni a speciális igényű vendégek igényeit (vegetáriánusok, vegánok, glutén, szója, laktóz érzékenyek stb.) ugyanúgy, mint a hagyományos étrendet követők igényeit.
