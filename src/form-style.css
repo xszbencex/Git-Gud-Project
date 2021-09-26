@@ -85,13 +85,14 @@
     margin-top: 15px;
 }
 
-.submit-btn {
-    background-color: var(--main-color);
-    color: white;
-    border: unset;
+@media (max-width: 1200px) {
+    .content-container {
+        width: 80%;
+    }
 }
 
-.submit-btn:hover {
-    background-color: var(--main-color);
-    opacity: 0.8;
+@media (max-width: 600px) {
+    .content-container {
+        width: 90%;
+    }
 }
