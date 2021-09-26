@@ -58,7 +58,7 @@
             </div>
         </div>
         <div class="content-container">
-            <form>
+            <form class="row g-3 needs-validation" novalidate>
                 <div id="dynamic-questions-wrapper">
                 </div>
                 <div class="question-container">
@@ -68,15 +68,15 @@
                       </div>
                 </div>
                 <div class="asd">
-                    <input type="checkbox" id="flexCheckDefault" name="accept-terms" class="form-check-input" onclick="myFunction()">
+                    <input type="checkbox" id="flexCheckDefault" name="accept-terms" class="form-check-input" onclick="myFunction()" required>
                     <label for="flexCheckDefault" class="form-check-label">
                         Elolvastam és elfogadom az adatvédelmi szabályzatot
                     </label>
-                    <p id="text" style="display:block">Az űrlap kitöltése előtt pipálja be a jelölőnégyzetet!</p>
+                    <p id="text1" style="display:block">Az űrlap kitöltése előtt pipálja be a jelölőnégyzetet!</p>
                     <script>
                       function myFunction() {
                         var checkBox = document.getElementById("flexCheckDefault");
-                        var text = document.getElementById("text");
+                        var text = document.getElementById("text1");
                         if (checkBox.checked == true){
                           text.style.display = "none";
                         } else {
@@ -97,7 +97,7 @@
           </div>
         </div>
 
-        <button onclick="togglePopup()">Űrlap elküldése</button>
+        <button type="submit" class="btn btn-primary" onclick="togglePopup()">Űrlap elküldése</button>
 
         <div class="progress-bar-container">
             <div class="progress" style="height: 10px;">
@@ -107,3 +107,4 @@
     </div>
 </body>
 </html>
+

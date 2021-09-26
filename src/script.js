@@ -43,6 +43,7 @@ function processData(response) {
                 input.type = 'text';
                 input.className = 'form-control';
                 input.name = 'q' + question.id;
+                
     
                 inputContainer.appendChild(input);
                 answers.appendChild(inputContainer);
@@ -57,6 +58,7 @@ function processData(response) {
                     radioButton.id = 'radio-q' + question.id + "-a" + (i + 1);
                     radioButton.className = 'form-radio-input';
                     radioButton.name = 'q' + question.id;
+                    radioButton.required=true;
 
                     let label = document.createElement('label');
                     label.htmlFor = 'radio-q' + question.id + "-a" + (i + 1);
@@ -67,6 +69,7 @@ function processData(response) {
                     radioButtonContainer.appendChild(label);
                     answers.appendChild(radioButtonContainer);
                 }
+                
                 break;
             case 'options':
                 for (let i = 0; i < question.options.length; ++i) {
@@ -78,6 +81,8 @@ function processData(response) {
                     checkbox.id = 'check-q' + question.id + "-a" + (i + 1);
                     checkbox.className = 'form-check-input';
                     checkbox.name = 'q' + question.id;
+                    checkbox.required=true;
+
 
                     let label = document.createElement('label');
                     label.htmlFor = 'check-q' + question.id + "-a" + (i + 1);
@@ -88,6 +93,8 @@ function processData(response) {
                     checkboxContainer.appendChild(label);
                     answers.appendChild(checkboxContainer);
                 }
+                
+          
                 break;
             default:
                 let errorContainer = document.createElement('div');
