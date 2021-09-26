@@ -91,13 +91,13 @@ FELHASZNÁLÓ:
       {
         "id": "1",
         "question": "Kérdés szövege",
-        "type": "Kérdés típusa",   // "options" vagy "text" vagy "decidable"
+        "type": "Kérdés típusa",   // "options" vagy "text" vagy "decidable" vagy "logical"
         "options": ["Lehetőség 1", "Lehetőség 2", ...]    // "options" típus esetén
       },
       {
         "id": "2",
         "question": "Kérdés szövege",
-        "type": "Kérdés típusa",   // "options" vagy "text" vagy "decidable"
+        "type": "Kérdés típusa",   // "options" vagy "text" vagy "decidable" vagy "logical"
         "options": ["Lehetőség 1", "Lehetőség 2", ...]    // "options" típus esetén
       }
    ]
