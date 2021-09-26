@@ -33,9 +33,15 @@ Manapság azok emberek, akik nagyvárosban élnek kevés szabadidővel rendelkez
 - 4.5. kérdés: Az étterem felszereltségére vonatkozóan => etetőszék, légkondícionáló berendezés, svédasztal, önkiszolgáló ételrendelés, mosdólehetőség, drive kiszolgálás, bankártyás fizetés, parkolási lehetőség válaszlehetőségek felsorolása (több választási lehetőség egyszerre)
 - 4.6. kérdés: Kedvezmények, árajánlatok fontosságára vonatkozóan => korlátlan üdítőfogyasztás, ajándék kiegészítők egyes menük választása esetén, kuponfüzet, nyereményjáték válaszlehetőségek felsorolása (több választási lehetőség egyszerre)
   
-***5. Igényelt üzleti folyamatok midellje***<br>
+***5. Igényelt üzleti folyamatok modellje***<br>
 Éttermünk, az Apetit étteremlánc nagy múltú cég, tehát jelentős tapasztalattal rendelkezik. Számos területen értünk el piacvezető pozíciót. Hatalmas választékkal bíró éttermünk képes kielégíteni a speciális igényű vendégek igényeit (vegetáriánusok, vegánok, glutén, szója, laktóz érzékenyek stb.) ugyanúgy, mint a hagyományos étrendet követők igényeit.
 Kiváló séfjeink képesek elhozni más országok egzotikus ételkülönlegességeit. Nagyméretű éttermeink alkalmasak nagyszabású rendezvényekhez (esküvői lakodalmakhoz, ballagásokhoz konferenciákhoz stb...).<br>
+ 
+- 5.1 Az űrlapot kitöltő egy olyan weboldalon akar válaszolni a kérdésekre, ahol a kérdések számozva jelennek meg => majd alattuk egy legördülő menüből választhat a megadott válaszlehetőségek közül.
+- 5.2. A kitöltés megkezdése előtt egy üdvözlő, bemutatkozó szöveg köszöntené a válaszadót, amelyben ismertetjük az űrlap elkészítésének okát.
+- 5.3. Amennyiben a kitöltő egy adott kérdésre 1-nél többet is kiválaszthat, arról tájékoztatást kap közvetlenül a kérdés után zárójelek között(válasszon ki egyet vagy többet).
+- 5.4. Abban az esetben, ha saját ötletet akarna hozzáírni a megadott opciókon felül, szerepelni fog minden kérdésblokkban egy szövegdoboz is, ahol begépelhet véges számú karaktersorozatot.
+- 5.5. A kitöltést követően egy köszönetnyilvánítási oldal fogadná a kitöltőt, melyben megköszönjük a kitöltést => illetve megadjuk további kérdés, javaslat írás igénye esetén elérhetőségünket.
   
 
 ***6. Használati esetek***<br>
