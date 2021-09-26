@@ -29,6 +29,16 @@
 | *Várt eredmény*        | Jól pozicionált komponensek |
 | *Kapott eredmény*      | Megfelelt                   |
 
+|Rendszerteszt №4|  |
+|--------------------------|-----------------------------|
+| *Tesztelést elvégezte* | [Tóth Zoltán](https://github.com/zplussz35)|
+| *Tesztelés ideje*     | 2021.09.26 23:30            |
+| *Operációs rendszer*   | Android 10.0          |
+| *Hazsnált szoftver*   | Google Chrome 76              |
+| *Tesztelt komponensek* | Oldal jó megjelenése (Reszponzív webdizájn)       |
+| *Várt eredmény*        | Jól pozicionált komponensek |
+| *Kapott eredmény*      | Megfelelt                   |
+
 
 ## [form.html](../src/form.html)
 |Rendszerteszt №1|  |
@@ -60,3 +70,23 @@
 | *Tesztelt komponensek* | Kérdések kötelező válasz adásának beállítása        |
 | *Várt eredmény*        | figyelmeztető üzenet küldése ki nem töltött válasz esetén |
 | *Kapott eredmény*      | Nem felelt meg                   |
+
+|Unit_teszt №4|  |
+|--------------------------|-----------------------------|
+| *Tesztelést elvégezte* | [Tóth Zoltán](https://github.com/zplussz35)|
+| *Tesztelés ideje*     | 2021.09.26 23:40            |
+| *Operációs rendszer*   | Ubuntu 20.04             |
+| *Hazsnált szoftver*   | Firefox 92.0.1              |
+| *Tesztelt komponensek* | Galéria menüpont megnyitása      |
+| *Várt eredmény*        | Galériában a képek igényes megjelenése |
+| *Kapott eredmény*      | Nem felelt meg (Nem jelentek meg képek)                   |
+
+|Unit_teszt №5|  |
+|--------------------------|-----------------------------|
+| *Tesztelést elvégezte* | [Tóth Zoltán](https://github.com/zplussz35)|
+| *Tesztelés ideje*     | 2021.09.26 23:42            |
+| *Operációs rendszer*   | Ubuntu 20.04             |
+| *Hazsnált szoftver*   | Firefox 92.0.1              |
+| *Tesztelt komponensek* | Kapcsolat menüpont megnyitása      |
+| *Várt eredmény*        | Az étterem információk megjelenése |
+| *Kapott eredmény*      | Megfelelt                   |
