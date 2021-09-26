@@ -20,11 +20,11 @@ Feladatuk a funkciók létrehozása és megvalósítása.
 | Követelmény specifikáció | | 0 | 12 | 12 | 12 | 0 |
 | Funkcionális specifikáció | | 0 | 12 | 12 | 12 | 0 |
 | Rendszerterv | | 0 | 16 | 16 | 12 | 12 |
-| Fejlesztés | HTML | 1 | 12 | 12 | ? | ? |
-| | CSS | 1 | 12 | 12 | ? | ? |
-| |JavaScript | 1 | 12 | 12 | ? | ? |
-| | JSON | 1 | 12 | 12 | ? | ? |
-| Tesztelés | | 1 | 16 | 16 | ? | ? |
+| Fejlesztés | HTML | 1 | 12 | 12 | 12 | 0 |
+| | CSS | 1 | 12 | 12 | 12 | 0 |
+| |JavaScript | 1 | 12 | 12 | 12 | 0 |
+| | JSON | 1 | 12 | 12 | 12 | 0 |
+| Tesztelés | | 1 | 16 | 16 | 10 | 6 |
 | Értékelés | | ? | ? | ? | ? | ? | 
 
 ***3. Üzleti folyamatok modellje***<br>
