@@ -13,16 +13,37 @@ A megrendelő fel szeretné mérni a fogyasztók igényeit, hogy versenytársaih
 |Űrlap         | K4 |Megjegyzés           |A kérdőívre válaszolók egy szövegmezőben írhatják le véleményüket az űrlapról, esetleges felmerülő kérdéseiket, melyekre nem tértek ki a kérdések és egyéb ötleteket is megoszthatnak az étteremmel.|
 |Jogi szabályok| K5 |Jogi nyilatkozatok   |Adatvédelmi nyilatkozat, GDPR, ASZF, szükség esetén Cookie szabályzat feltüntetése a weblapon.|
 |Jogi szabályok| K6 |Checkbox             |Egy checkbox bepipálása nélkül nem küldheti el az űrlap adatait a felahasználó, ezért ennek hiányában szembetűnő értesítés jelenik meg a felületen.(javascript)|
-|Felület       | K7 |Reszponzív felület   |Minden szabványos képernyőméret (monitor, tablet, telefon) esetén a weblap megfelelő módon nézzen ki.(html,css)|
-|Felület       | K8 |Webböngésző támogatás|A legelterjedtebb webböngészőkön (Chrome, Firefox, Opera stb.) egyaránt igényes megejelnés és megfelelő működés elvárt.|
-|Felület       | K9 |Űrlapok kinézete     |Lehetőség szerint az input mezők valamilyen könyvtár (pl. Bootstrap) használatával igényesen és modernül nézzenek ki.|
+|Felület       | K7 |Kapcsolat menüpont   |Lesz egy Kapcsolat menüpont, fel lesznek tüntetve az étterem elérhetőségei. (cím, e-mail cím, telefonszám)|
+|Felület       | K8 |Galéria menüpont   |Lesz egy Galéria menüpont, ahol megtekinthetők az eddig megnyitott éttermeink belsejéről készült képek.|
+|Felület       | K9 |Reszponzív felület   |Minden szabványos képernyőméret (monitor, tablet, telefon) esetén a weblap megfelelő módon nézzen ki.(html,css)|
+|Felület       | K10 |Webböngésző támogatás|A legelterjedtebb webböngészőkön (Chrome, Firefox, Opera stb.) egyaránt igényes megejelnés és megfelelő működés elvárt.|
+|Felület       | K11 |Űrlapok kinézete     |Lehetőség szerint az input mezők valamilyen könyvtár (pl. Bootstrap) használatával igényesen és modernül nézzenek ki.|
 
 ***4. Jelenlegi üzleti folyamatok modellje***<br>
-Manapság azok emberek, akik nagyvárosban élnek kevés szabadidővel rendelkeznek a felgyorsult életvitelük miatt, ezért szeretnek étterembe járni, mert  megspórpolják azt az időt, amit a főzéssel töltenének otthon. Ráadásul nagyvárosban sok rendezvényt tartanak (esküvő, ballagás, születésnapi buli stb...) amelynek az éttermek tudnak a legszínvonalasabb helyet nyűjtani. Debrecenben sajnos még nem alakult ki nagyméretű étteremlánc, amely el tudná látni a nagylétszámú lakossága igényeit. Kevés olyan étterem van a városban, amely elhozná az emberek számára más országok ételkülönlegességeit. Kevés étterem foglalkozik az extra igényű vendégekkel. (laktóz érzékenyek, glutén érzékenyek, vegánok stb...) Jelenleg étermünk, az <b>Apetit étteremlánc<b> képes ellátni ezeket a feladatokat.
+Manapság azok emberek, akik nagyvárosban élnek kevés szabadidővel rendelkeznek a felgyorsult életvitelük miatt, ezért szeretnek étterembe járni, mert  megspórpolják azt az időt, amit a főzéssel töltenének otthon. Ráadásul nagyvárosban sok rendezvényt tartanak (esküvő, ballagás, születésnapi buli stb...) amelynek az éttermek tudnak a legszínvonalasabb helyet nyűjtani. Debrecenben sajnos még nem alakult ki nagyméretű étteremlánc, amely el tudná látni a nagylétszámú lakossága igényeit. Kevés olyan étterem van a városban, amely elhozná az emberek számára más országok ételkülönlegességeit. Kevés étterem foglalkozik az extra igényű vendégekkel. (laktóz érzékenyek, glutén érzékenyek, vegánok stb...) Jelenleg étermünk, az <b>Apetit étteremlánc<b> képes ellátni ezeket a feladatokat.<br>
+ 
+- 4.1. Étkezési szokásokra vonatkozó kérdések
+- 4.1.1. Kérdés: A házon kívüli étkezések gyakorisága => naponta, hetente, havonta, évente válaszlehetőségek felsorolása (1 válaszlehetőség)
+- 4.1.2. kérdés: Milyen okokból étkeznek házon kívül => időmegtakarítás, társaság, nagyobb kínálat, jeles alkalmak megünneplése, gazdasági szempontok, ismerettség, kedvezmény, kényelem válaszlehetőségek felsorolása (több választási lehetőség egyszerre)
+- 4.2. Étkezdék tulajdonságaira vonatkozó kérdések
+- 4.2.1. kérdés : Mely étkezdéket részesítenek előnyben => étterem, menza, kifőzde, gyorsétterem, élelmiszerbolt, bevásárlóközpontok étkező részlege válaszlehetőségek felsorolása (több választási lehetőség egyszerre)
+- 4.2.2. kérdés: Mik a főbb szempontok, preferenciák egy étkezde kiválasztásában => közelség, ételek minősége, ár, kiszolgálás, népszerűség, megbízhatóság, ételek változatossága, ételérzékenység, környezettudatosság válaszlehetőségek felsorolása (több választási lehetőség egyszerre)
+- 4.3. A kínálatra vonatkozó kérdések
+- 4.3.1. Kérdés: A legkedveltebb ételkülönlegességekre vonatkozóan => magyaros ízek, más országok, régiók fogásai, a séf ajánlata, gyermek menük válaszlehetőségek felsorolása
+- 4.3.2. kérdés: Ételérzékenységre vonatkozóan => glutén-, laktózérzékenység, cukorbetegség, vegetáriánus, illetve vegán életmód válaszlehetőségek felsorolása (több választási lehetőség egyszerre)
+- 4.4. kérdés: Fogyasztási szokásokra vonatkozóan => Elvitelre/az étteremben/házhozszállítással válaszlehetőségek felsorolása (több választási lehetőség egyszerre)
+- 4.5. kérdés: Az étterem felszereltségére vonatkozóan => etetőszék, légkondícionáló berendezés, svédasztal, önkiszolgáló ételrendelés, mosdólehetőség, drive kiszolgálás, bankártyás fizetés, parkolási lehetőség válaszlehetőségek felsorolása (több választási lehetőség egyszerre)
+- 4.6. kérdés: Kedvezmények, árajánlatok fontosságára vonatkozóan => korlátlan üdítőfogyasztás, ajándék kiegészítők egyes menük választása esetén, kuponfüzet, nyereményjáték válaszlehetőségek felsorolása (több választási lehetőség egyszerre)
   
-***5. Igényelt üzleti folyamatok midellje***<br>
+***5. Igényelt üzleti folyamatok modellje***<br>
 Éttermünk, az Apetit étteremlánc nagy múltú cég, tehát jelentős tapasztalattal rendelkezik. Számos területen értünk el piacvezető pozíciót. Hatalmas választékkal bíró éttermünk képes kielégíteni a speciális igényű vendégek igényeit (vegetáriánusok, vegánok, glutén, szója, laktóz érzékenyek stb.) ugyanúgy, mint a hagyományos étrendet követők igényeit.
 Kiváló séfjeink képesek elhozni más országok egzotikus ételkülönlegességeit. Nagyméretű éttermeink alkalmasak nagyszabású rendezvényekhez (esküvői lakodalmakhoz, ballagásokhoz konferenciákhoz stb...).<br>
+ 
+- 5.1 Az űrlapot kitöltő egy olyan weboldalon akar válaszolni a kérdésekre, ahol a kérdések számozva jelennek meg => majd alattuk egy legördülő menüből választhat a megadott válaszlehetőségek közül.
+- 5.2. A kitöltés megkezdése előtt egy üdvözlő, bemutatkozó szöveg köszöntené a válaszadót, amelyben ismertetjük az űrlap elkészítésének okát.
+- 5.3. Amennyiben a kitöltő egy adott kérdésre 1-nél többet is kiválaszthat, arról tájékoztatást kap közvetlenül a kérdés után zárójelek között(válasszon ki egyet vagy többet).
+- 5.4. Abban az esetben, ha saját ötletet akarna hozzáírni a megadott opciókon felül, szerepelni fog minden kérdésblokkban egy szövegdoboz is, ahol begépelhet véges számú karaktersorozatot.
+- 5.5. A kitöltést követően egy köszönetnyilvánítási oldal fogadná a kitöltőt, melyben megköszönjük a kitöltést => illetve megadjuk további kérdés, javaslat írás igénye esetén elérhetőségünket.
   
 
 ***6. Használati esetek***<br>
@@ -32,6 +53,9 @@ hogy az hibamentes működését ellenőrizhesse. Az Admin
 feladata a rendszer problémamentes működtetése. Ez egyben jár azzal,
 hogy az egész rendszerhez van hozzáférése.
 
-***5. Képernyő tervezete***<br>
-Az űrlap tervezete okostelefon képernyőn:<br>
-<img src="mini-project.png" data-canonical-src="mini-project.png" width="445" height="681" />
+***7. Képernyő tervezete***<br>
+A weboldal megnyitásakor egy kezdőlapra érkezünk, ahonnan elérhetjük a kitöltendő űrlapot, valamint egyéb menüpontokat.<br> 
+A kezdőlap tartalmazza a weboldal létrehozásának célját, innen közvetlenül elérhető az űrlap, ami természetesen a menüből is megnyitható.
+Ezeken felül még egy galéria és egy kapcsolat menüpont is kínálkozik. A galéria ételkülönlegességek fotóit tartalmazza, míg a kapcsolat az étteremlánc további elérhetőségeit. 
+Az űrlap egyszerűsített tervezete okostelefon képernyőn:<br>
+<img src="images/mini-project.png" data-canonical-src="images/mini-project.png" width="445" height="681" />
