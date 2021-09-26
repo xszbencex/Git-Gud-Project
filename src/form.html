@@ -58,34 +58,25 @@
             </div>
         </div>
         <div class="content-container">
-            <form class="row g-3 needs-validation" novalidate>
+            <form class="needs-validation" novalidate>
                 <div id="dynamic-questions-wrapper">
                 </div>
                 <div class="question-container">
                     <div class="mb-3">
-                        <label for="exampleFormControlTextarea1" class="form-label">Egyéb megjegyzés, kérés</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        <label for="comment" class="form-label">Egyéb megjegyzés, kérés</label>
+                        <textarea class="form-control" id="comment" rows="3"></textarea>
                       </div>
                 </div>
-                <div class="asd">
-                    <input type="checkbox" id="flexCheckDefault" name="accept-terms" class="form-check-input" onclick="myFunction()" required>
+                <div class="terms-container">
+                    <input type="checkbox" id="flexCheckDefault" name="accept-terms" class="form-check-input" required>
                     <label for="flexCheckDefault" class="form-check-label">
                         Elolvastam és elfogadom az adatvédelmi szabályzatot
                     </label>
-                    <p id="text1" style="display:block">Az űrlap kitöltése előtt pipálja be a jelölőnégyzetet!</p>
-                    <script>
-                      function myFunction() {
-                        var checkBox = document.getElementById("flexCheckDefault");
-                        var text = document.getElementById("text1");
-                        if (checkBox.checked == true){
-                          text.style.display = "none";
-                        } else {
-                           text.style.display = "block";
-                        }
-                      }
-                      </script>
+                    <div class="invalid-feedback">Az adatvédelmi szabályzat elfogadása kötelező</div>
                 </div>
-                
+                <div class="submit-container">
+                  <button type="submit" class="btn submit-btn">Űrlap elküldése</button>
+                </div>
                </form>
         </div>
 
@@ -96,8 +87,6 @@
             <p>Köszönjük szépen a kitöltést!</p>
           </div>
         </div>
-
-        <button type="submit" class="btn btn-primary" onclick="togglePopup()">Űrlap elküldése</button>
 
         <div class="progress-bar-container">
             <div class="progress" style="height: 10px;">

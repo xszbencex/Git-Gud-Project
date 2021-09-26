@@ -56,9 +56,9 @@ function processData(response) {
                     let radioButton = document.createElement('input');
                     radioButton.type = 'radio';
                     radioButton.id = 'radio-q' + question.id + "-a" + (i + 1);
-                    radioButton.className = 'form-radio-input';
+                    radioButton.className = 'form-check-input';
                     radioButton.name = 'q' + question.id;
-                    radioButton.required=true;
+                    radioButton.required = true;
 
                     let label = document.createElement('label');
                     label.htmlFor = 'radio-q' + question.id + "-a" + (i + 1);
@@ -67,6 +67,13 @@ function processData(response) {
         
                     radioButtonContainer.appendChild(radioButton);
                     radioButtonContainer.appendChild(label);
+
+                    if (i == question.options.length - 1) {
+                        let invalidError = document.createElement('div');
+                        invalidError.className = 'invalid-feedback';
+                        invalidError.innerText = 'Egy lehetőség kiválasztása kötelező';
+                        radioButtonContainer.appendChild(invalidError);
+                    }
                     answers.appendChild(radioButtonContainer);
                 }
                 
@@ -81,7 +88,7 @@ function processData(response) {
                     checkbox.id = 'check-q' + question.id + "-a" + (i + 1);
                     checkbox.className = 'form-check-input';
                     checkbox.name = 'q' + question.id;
-                    checkbox.required=true;
+                    checkbox.required = true;
 
 
                     let label = document.createElement('label');
@@ -91,6 +98,14 @@ function processData(response) {
         
                     checkboxContainer.appendChild(checkbox);
                     checkboxContainer.appendChild(label);
+
+                    if (i == question.options.length - 1) {
+                        let invalidError = document.createElement('div');
+                        invalidError.className = 'invalid-feedback';
+                        invalidError.innerText = 'Legalább egy lehetőség kiválasztása kötelező';
+                        checkboxContainer.appendChild(invalidError);
+                    }
+
                     answers.appendChild(checkboxContainer);
                 }
                 
