@@ -1,3 +1,45 @@
+## Teljes oldal
+|Rendszerteszt №1|  |
+|--------------------------|-----------------------------|
+| *Tesztelést elvégezte* | [Szabó Bence](https://github.com/xszbencex)|
+| *Tesztelés ideje*     | 2021.09.27 2:38            |
+| *Operációs rendszer*   | Windows 10 Home             |
+| *Hazsnált szoftver*   | Google Chrome 94.0.4606.61              |
+| *Tesztelt komponensek* | Oldalak reszponzivitása        |
+| *Várt eredmény*        | Kis képernyőn is igényes megjelenés |
+| *Kapott eredmény*      | Megfelelt                   |
+
+|Rendszerteszt №2|  |
+|--------------------------|-----------------------------|
+| *Tesztelést elvégezte* | [Szabó Bence](https://github.com/xszbencex)|
+| *Tesztelés ideje*      | 2021.09.27 2:35            |
+| *Operációs rendszer*  | Windows 10 Home             |
+| *Hazsnált szoftver*    | Mozilla Firefox 91.0.2              |
+| *Tesztelt komponensek* | Oldalak reszponzivitása        |
+| *Várt eredmény*     | Kis képernyőn is igényes megjelenés |
+| *Kapott eredmény*     | Megfelelt                   |
+
+|Rendszerteszt №3|  |
+|--------------------------|-----------------------------|
+| *Tesztelést elvégezte* | [Szabó Bence](https://github.com/xszbencex)|
+| *Tesztelés ideje*     | 2021.09.27 2:49            |
+| *Operációs rendszer*   | Windows 10 Home             |
+| *Hazsnált szoftver*   | Google Chrome 94.0.4606.61              |
+| *Tesztelt komponensek* | Navigációs gombok        |
+| *Várt eredmény*        | A mutatott helyre való navigálás az oldalon |
+| *Kapott eredmény*      | Megfelelt                   |
+
+|Rendszerteszt №4|  |
+|--------------------------|-----------------------------|
+| *Tesztelést elvégezte* | [Szabó Bence](https://github.com/xszbencex)|
+| *Tesztelés ideje*      | 2021.09.27 2:48            |
+| *Operációs rendszer*  | Windows 10 Home             |
+| *Hazsnált szoftver*    | Mozilla Firefox 91.0.2              |
+| *Tesztelt komponensek* | Navigációs gombok        |
+| *Várt eredmény*     | A mutatott helyre való navigálás az oldalon |
+| *Kapott eredmény*     | Megfelelt                   |
+
+
 ## [index.html](../src/index.html)
 |Rendszerteszt №1|  |
 |--------------------------|-----------------------------|
@@ -90,3 +132,63 @@
 | *Tesztelt komponensek* | Kapcsolat menüpont megnyitása      |
 | *Várt eredmény*        | Az étterem információk megjelenése |
 | *Kapott eredmény*      | Megfelelt                   |
+
+|Rendszerteszt №6|  |
+|--------------------------|-----------------------------|
+| *Tesztelést elvégezte* | [Szabó Bence](https://github.com/xszbencex)|
+| *Tesztelés ideje*     | 2021.09.27 2:46           |
+| *Operációs rendszer*   | Windows 10 Home             |
+| *Hazsnált szoftver*   | Google Chrome 94.0.4606.61              |
+| *Tesztelt komponensek* | Form validálás        |
+| *Várt eredmény*        | A típusok alapján a kérdések validálásának megfelelő megjelenítéseés működése |
+| *Kapott eredmény*      | Megfelelt                   |
+
+|Rendszerteszt №7|  |
+|--------------------------|-----------------------------|
+| *Tesztelést elvégezte* | [Szabó Bence](https://github.com/xszbencex)|
+| *Tesztelés ideje*      | 2021.09.27 2:45            |
+| *Operációs rendszer*  | Windows 10 Home             |
+| *Hazsnált szoftver*    | Mozilla Firefox 91.0.2              |
+| *Tesztelt komponensek* | Form validálás        |
+| *Várt eredmény*     | A típusok alapján a kérdések validálásának megfelelő megjelenítéseés működése |
+| *Kapott eredmény*     | Megfelelt                   |
+
+|Rendszerteszt №8|  |
+|--------------------------|-----------------------------|
+| *Tesztelést elvégezte* | [Szabó Bence](https://github.com/xszbencex)|
+| *Tesztelés ideje*     | 2021.09.27 2:51            |
+| *Operációs rendszer*   | Windows 10 Home             |
+| *Hazsnált szoftver*   | Google Chrome 94.0.4606.61              |
+| *Tesztelt komponensek* | Form elküldése gomb        |
+| *Várt eredmény*        | A formok értékeit és validátorokat reseteli és a felugróablak megjelenik és a progress bar 0-ra állítódik |
+| *Kapott eredmény*      | Megfelelt                   |
+
+|Rendszerteszt №9|  |
+|--------------------------|-----------------------------|
+| *Tesztelést elvégezte* | [Szabó Bence](https://github.com/xszbencex)|
+| *Tesztelés ideje*      | 2021.09.27 2:50            |
+| *Operációs rendszer*  | Windows 10 Home             |
+| *Hazsnált szoftver*    | Mozilla Firefox 91.0.2              |
+| *Tesztelt komponensek* | Form elküldése gomb        |
+| *Várt eredmény*     | A formok értékeit és validátorokat reseteli és a felugróablak megjelenik és a progress bar 0-ra állítódik |
+| *Kapott eredmény*     | Megfelelt                   |
+
+|Rendszerteszt №10|  |
+|--------------------------|-----------------------------|
+| *Tesztelést elvégezte* | [Szabó Bence](https://github.com/xszbencex)|
+| *Tesztelés ideje*     | 2021.09.27 2:55           |
+| *Operációs rendszer*   | Windows 10 Home             |
+| *Hazsnált szoftver*   | Google Chrome 94.0.4606.61              |
+| *Tesztelt komponensek* | Progress bar        |
+| *Várt eredmény*        | A válaszok megadásával a progress bar százalékosan töltődik  |
+| *Kapott eredmény*      | Megfelelt                   |
+
+|Rendszerteszt №11|  |
+|--------------------------|-----------------------------|
+| *Tesztelést elvégezte* | [Szabó Bence](https://github.com/xszbencex)|
+| *Tesztelés ideje*      | 2021.09.27 2:56            |
+| *Operációs rendszer*  | Windows 10 Home             |
+| *Hazsnált szoftver*    | Mozilla Firefox 91.0.2              |
+| *Tesztelt komponensek* | Progress bar        |
+| *Várt eredmény*     | A válaszok megadásával a progress bar százalékosan töltődik  |
+| *Kapott eredmény*     | Megfelelt                   |
