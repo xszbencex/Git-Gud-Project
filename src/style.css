@@ -139,3 +139,14 @@ h1 {
         width: 80% !important;
     }
 }
+
+@media (max-width: 550px) {
+    .page-title {
+        letter-spacing: unset;
+        font-size: 2em;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        border-bottom: unset;
+        line-height: initial;
+    }
+}
