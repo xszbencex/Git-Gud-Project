@@ -19,6 +19,121 @@
         "question": "Milyen céllal jár étterembe? (több válasz lehetséges)",
         "type": "options",
         "options": ["Üzleti", "Baráti összejövetel","Családi összejövetel","Pusztán étkezés céljából"]
-      }
+      },
+      {
+        "id": "4",
+        "question": "Melyik napszakban jár leginkább étterembe?",
+        "type": "decidable",
+        "options": ["Reggel", "Délelőtt", "Délben", "Délután", "Este"]
+      },
+      {
+        "id": "5",
+        "question": "Szeret új éttermeket kipróbálni?",
+        "type": "logical",
+        "options": ["Igen", "Nem"]
+      },
+      {
+        "id": "6",
+        "question": "Milyen gyakran étkezik házon kívül?",
+        "type": "decidable",
+        "options": ["Naponta", "Hetente", "Havonta", "Évente"]
+      },
+      {
+        "id": "7",
+        "question": "Milyen okokból étkezik házon kívül? (több válasz lehetséges)",
+        "type": "options",
+        "options": ["Időmegtakarítás", "Jó a társaság", "Nagyobb kínálat", "Jeles alkalmak megünneplése", "Gazdasági okokból", "Ismerettség miatt", "Kedvezményesebb", "Kényelmesebb"]
+      },
+      {
+        "id": "8",
+        "question": "Milyen étkezdéket részesít előnyben? (több válasz lehetséges)",
+        "type": "options",
+        "options": ["Étterem", "Menza", "Kifőzde", "Gyorsétterem", "Élelmiszerbolt", "Bevásárlóközpontok étkező részlege"]
+      },
+      {
+        "id": "9",
+        "question": "Mely szempontok alapján választ magának az étkezdék közül? (több válasz lehetséges)",
+        "type": "options",
+        "options": ["Közelség", "Ételek minősége", "Ár", "Kiszolgálás", "Népszerűség", "Megbízhatóság", "Ételek változatossága", "Ételérzékenység", "Környezettudatosság"]
+
+      },
+      {
+        "id": "10",
+        "question": "Milyen ételkülönlegességeket fogyaszt a legszívesebben? (több válasz lehetséges)",
+        "type": "options",
+        "options": ["Magyaros ízek", "Más országok, régiók fogásai", "A séf ajánlata", "Gyermek menük"]
+      },
+      {
+        "id": "11",
+        "question": "Milyen italt iszik az ételekhez? (több válasz lehetséges)",
+        "type": "options",
+        "options": ["Szénsavas üdítőt", "Teát", "Ásványvizet", "Egyebet"]
+      },
+      {
+        "id": "12",
+        "question": "Önnek van valamilyen ételallergiája?",
+        "type": "logical",
+        "options": ["Igen", "Nem"]
+      },
+      {
+        "id": "13",
+        "question": "Ha az előző kérdésre igen volt a válasza, milyen ételallergiája van? (több válasz lehetséges)",
+        "type": "options",
+        "options": ["Gluténérzékenység", "Laktózérzékenység", "Cukorbetegség"]
+      },
+      {
+        "id": "14",
+        "question": "Figyel-e Ön az ételek összetételére?",
+        "type": "decidable",
+        "options": ["Igen, mindig megkérdezem mik az összetevői", "Ha fel van tüntetve, elolvasom", "Nem szoktam megnézni, hogy fel van-e tüntetve", "Nem szoktam elolvasni"]
+      },
+      {
+        "id": "15",
+        "question": "Ön folytat valamilyen tudatos életmódot?",
+        "type": "logical",
+        "options": ["Igen", "Nem"]
+      },
+      {
+        "id": "16",
+        "question": "Ha az előző kérdésre igen volt a válasza, milyen életmódot gyakorol?",
+        "type": "decidable",
+        "options": ["Vegetáriánus életmód", "Vegán életmód"]
+      },
+      {
+        "id": "17",
+        "question": "Az alábbiak közül mely étkezési lehetőséget kedveli a legjobban? (több válasz lehetséges)",
+        "type": "options",
+        "options": ["Elvitelre kérem az ételt", "Az étteremben fogyasztom el a legyszívesebben az ételt", "Házhozszállítással rendelem meg az ételt"]
+      },
+      {
+        "id": "18",
+        "question": "Ön szerint milyen szolgáltatásokkal, berendezési tárgyakkal kell rendelkeznie egy ideális étteremnek? (több válasz lehetséges)",
+        "type": "options",
+        "options": ["Etetőszék", "Légkondícionáló berendezés", "Svédasztal", "Önkiszolgáló ételrendelés", "Mosdólehetőség", "Drive kiszolgálás", "Bankkártyás fizetés", "Parkolási lehetőség"]
+      },
+      {
+        "id": "19",
+        "question": "Ön mely kedvezménytípusokat kedveli a legjobban? (több válasz lehetséges)",
+        "type": "options",
+        "options": ["Korlátlan üdítőfogyasztás", "Ajándék kiegészítők egyes menük választása esetén", "Kuponfüzet", "Nyereményjáték"]
+      },
+      {
+       "id": "20",
+       "question": "Neme?",
+       "type": "decidable",   
+       "options": ["Nő", "Férfi"]    
+     },
+     {
+       "id": "21",
+       "question": "Mi az Ön foglalkozása?",
+       "type": "decidable",
+       "options": ["Diák", "Alkalmazott", "Vezető","Vállakozó","Háztartásbeli","Munkanélküli","Nyugdíjas"]
+     },
+     {
+        "id": "22",
+        "question": "Mi az Ön családi állapota?",
+        "type": "decidable",
+        "options": ["Egyedülálló", "Házas","Élettársi kapcsolatban élek","Elvált","Özvegy"]
+     }
   ]
 }
