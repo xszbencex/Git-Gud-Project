@@ -105,6 +105,16 @@ h1 {
     padding: 10px;
 }
 
+.description a {
+    color: #f6a924;
+    text-decoration: inherit;
+}
+
+.description a:hover {
+    color: purple;
+    text-decoration: underline;
+}
+
 .button-container {
     display: flex;
     justify-content: center;
