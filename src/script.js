@@ -157,7 +157,7 @@ function setProgressBarWidth() {
     }
     const newWidth = String((count / form.elements.length) * 100);
     progressBar.style.width = newWidth + '%';
-    progressBar.setAttribute('aria-valuenow', newWidth)
+    progressBar.setAttribute('aria-valuenow', newWidth);
 }
 
 function onFormSubmit(event) {
@@ -166,6 +166,13 @@ function onFormSubmit(event) {
     if (form.checkValidity()) {
         form.classList.remove('was-validated');
         form.reset();
+        let checkboxes = document.querySelectorAll("input[type='checkbox']");
+        for(let i = 0; i < checkboxes.length; i++) {
+            checkboxes[i].required = true;   
+        }
+        progressBar.style.width = 0;
+        progressBar.setAttribute('aria-valuenow', 0);
+        window.scrollTo(0, 0);
         togglePopup();
     } else {
         form.classList.add('was-validated');
