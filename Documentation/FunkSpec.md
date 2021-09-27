@@ -59,3 +59,11 @@ A kezdőlap tartalmazza a weboldal létrehozásának célját, innen közvetlen�
 Ezeken felül még egy galéria és egy kapcsolat menüpont is kínálkozik. A galéria ételkülönlegességek fotóit tartalmazza, míg a kapcsolat az étteremlánc további elérhetőségeit. 
 Az űrlap egyszerűsített tervezete okostelefon képernyőn:<br>
 <img src="images/mini-project.png" data-canonical-src="images/mini-project.png" width="445" height="681" />
+
+ 
+ ***8. Forgatókönyv***<br><br>
+ **Szereplők:**<br><br>
+Futási időben két szereplő figyelhető meg. Az
+első szereplő maga a futó ALKALMAZÁS. (weben/androidon)
+Ezzel van interakcióban a második szereplő, maga a FELHASZNÁLÓ, aki kitölti a kérdőívet, úgy hogy minden kérdésre kötelező válaszolnia, és ha szükséges, akkor írhat megjegyzést a legtolsó szövegdobozba. A kérdőív kitöltése után a "kérdőív elküldése" gombra kattintva továbbítódik a felhasználó válasza a megrendelő felé.<br>
+Futási időn kívüli szereplő az ADMIN, aki ellenőrzi a weboldal megfelelő működését, teszteket végez és kiértékeli az eredményeket, valamint kijavítja a hibákat és fejleszti a weboldalt. Folyamatos kommunikációt tart fenn a megrendelővel, akihez beérkeznek az esetleges plusz igények az étteremmel kapcsolatban a felhasználóktól.

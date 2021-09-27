@@ -19,12 +19,12 @@ Feladatuk a funkciók létrehozása és megvalósítása.
 |-----------------|----------------|-----------|---------|------------------|------------|---------------|
 | Követelmény specifikáció | | 0 | 12 | 12 | 12 | 0 |
 | Funkcionális specifikáció | | 0 | 12 | 12 | 12 | 0 |
-| Rendszerterv | | 0 | 16 | 16 | 12 | 12 |
-| Fejlesztés | HTML | 1 | 12 | 12 | ? | ? |
-| | CSS | 1 | 12 | 12 | ? | ? |
-| |JavaScript | 1 | 12 | 12 | ? | ? |
-| | JSON | 1 | 12 | 12 | ? | ? |
-| Tesztelés | | 1 | 16 | 16 | ? | ? |
+| Rendszerterv | | 0 | 16 | 16 | 16 | 0 |
+| Fejlesztés | HTML | 1 | 12 | 12 | 12 | 0 |
+| | CSS | 1 | 12 | 12 | 12 | 0 |
+| |JavaScript | 1 | 12 | 12 | 12 | 0 |
+| | JSON | 1 | 12 | 12 | 12 | 0 |
+| Tesztelés | | 1 | 16 | 16 | 10 | 6 |
 | Értékelés | | ? | ? | ? | ? | ? | 
 
 ***3. Üzleti folyamatok modellje***<br>
@@ -91,13 +91,13 @@ FELHASZNÁLÓ:
       {
         "id": "1",
         "question": "Kérdés szövege",
-        "type": "Kérdés típusa",   // "options" vagy "text" vagy "decidable"
+        "type": "Kérdés típusa",   // "options" vagy "text" vagy "decidable" vagy "logical"
         "options": ["Lehetőség 1", "Lehetőség 2", ...]    // "options" típus esetén
       },
       {
         "id": "2",
         "question": "Kérdés szövege",
-        "type": "Kérdés típusa",   // "options" vagy "text" vagy "decidable"
+        "type": "Kérdés típusa",   // "options" vagy "text" vagy "decidable" vagy "logical"
         "options": ["Lehetőség 1", "Lehetőség 2", ...]    // "options" típus esetén
       }
    ]
