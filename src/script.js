@@ -160,6 +160,18 @@ function setProgressBarWidth() {
     progressBar.setAttribute('aria-valuenow', newWidth)
 }
 
-function onFormSubmit() {
-    
+function onFormSubmit(event) {
+    event.preventDefault();
+    event.stopPropagation();
+    if (form.checkValidity()) {
+        form.classList.remove('was-validated');
+        form.reset();
+        togglePopup();
+    } else {
+        form.classList.add('was-validated');
+    }
+}
+
+function togglePopup() {
+    document.getElementById("popup-1").classList.toggle("active");
 }
