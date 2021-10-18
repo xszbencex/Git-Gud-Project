@@ -57,7 +57,7 @@ Követelmények, funkciók, melyek a megfelelő működéshez elengedhetetlenek.
 ***5. Funkcionális terv***<br>
 **<ins>Rendszer szereplők:<ins>**
 - Admin
-- érdőív kitöltő személy
+- Kérdőív kitöltő személy
 
 **<ins>Rendszerhasználati esetek és lefutásaik:<ins>**<br>
 ADMIN:
